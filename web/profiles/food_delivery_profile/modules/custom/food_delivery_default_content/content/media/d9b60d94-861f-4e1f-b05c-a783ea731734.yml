@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d9b60d94-861f-4e1f-b05c-a783ea731734
+  bundle: image
+  default_langcode: en
+  depends:
+    7d8a0694-5392-459a-8180-a6c9933f705d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Bell_Peper_Australia.jpg
+  created:
+    -
+      value: 1594637076
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7d8a0694-5392-459a-8180-a6c9933f705d
+      alt: 'Bell Pepper Australia'
+      title: ''
+      width: 400
+      height: 480

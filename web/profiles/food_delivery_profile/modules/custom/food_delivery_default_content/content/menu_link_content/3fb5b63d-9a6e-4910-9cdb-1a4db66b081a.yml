@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3fb5b63d-9a6e-4910-9cdb-1a4db66b081a
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Frequently asked questions'
+  menu_name:
+    -
+      value: faq
+  link:
+    -
+      uri: 'internal:/how-it-works'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /frequently-asked-questions
+      langcode: en
+      pathauto: 1

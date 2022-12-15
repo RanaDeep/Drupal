@@ -1,0 +1,7 @@
+custom_csv_import.import_csv:
+  path: '/admin/structure/custom_csv_import/csv/import'
+  defaults:
+    _title: 'Upload csv'
+    _form: '\Drupal\custom_csv_import\Form\ImportcsvForm'
+  requirements:
+    _permission: 'Import csv'

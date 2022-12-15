@@ -1,0 +1,60 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function food_delivery_theme_preprocess_page(&$variables) {
+  $path = \Drupal::service('path.current')->getPath();
+  /** @var \Drupal\path_alias\AliasManagerInterface $aliasManager */
+  $aliasManager = \Drupal::service('path_alias.manager');
+  $path = $alias = $aliasManager->getAliasByPath($path);
+
+  switch ($path) {
+    case '/node': $variables['#attached']['library'][] = 'food_delivery_theme/slider'; break;
+    case '/cart': $variables['#attached']['library'][] = 'food_delivery_theme/cart'; break;
+    case '/typography': $variables['#attached']['library'][] = 'food_delivery_theme/typography'; break;
+  }
+
+  //if (str_contains($path, '/checkout')) {
+   // $variables['#attached']['library'][] = 'food_delivery_theme/checkout';
+  //}
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function food_delivery_theme_preprocess_block(&$variables) {
+  if ($variables['plugin_id'] === 'block_content:95ce1f38-14b6-46ef-91d4-bbdc86037fb6') {
+    /** @var \Drupal\commerce_cart\CartProviderInterface $cart_provider */
+    $cart_provider = \Drupal::service('commerce_cart.cart_provider');
+    $carts = $cart_provider->getCarts();
+    foreach ($carts as $cart_id => $cart) {
+      if ($cart->hasItems()) {
+        $variables['current_cart_id'] = $cart_id;
+        $variables['content']['body'][0]['#text'] = \Drupal::token()->replace($variables['content']['body'][0]['#text'], ['commerce_order' => $cart], ['clear' => TRUE]);
+        return;
+      }
+    }
+    $variables['content']['body'][0]['#text'] = preg_replace('/(<div class="services">(.*\r\n)*)(\r\n<div class="button_next_to_checkout">\r\n.*\r\n<\/div>\r\n)((\r\n.*)*<\/div>)/m', '${1}${4}', $variables['content']['body'][0]['#text']);
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function food_delivery_theme_preprocess_paragraph__clients(&$variables) {
+  $variables['#attached']['library'][] = 'core/jquery';
+  $variables['#attached']['library'][] = 'food_delivery_theme/owl_carousel';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function food_delivery_theme_preprocess_paragraph__slider(&$variables) {
+  $variables['#attached']['library'][] = 'core/jquery';
+  $variables['#attached']['library'][] = 'food_delivery_theme/owl_carousel';
+}

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 39552dcd-1084-42dc-a832-7e49ac537298
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: products-banner.jpg
+  uri:
+    -
+      value: 'public://inline-images/products-banner_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 157902
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1598331152
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

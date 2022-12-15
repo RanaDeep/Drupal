@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7eabf9fa-54cb-4df0-96fd-a07823d12768
+  bundle: image
+  default_langcode: en
+  depends:
+    a1db1255-94a6-405e-b74b-355d110fa90e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Almonds.jpg
+  created:
+    -
+      value: 1594633593
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: a1db1255-94a6-405e-b74b-355d110fa90e
+      alt: Almonds
+      title: ''
+      width: 400
+      height: 480

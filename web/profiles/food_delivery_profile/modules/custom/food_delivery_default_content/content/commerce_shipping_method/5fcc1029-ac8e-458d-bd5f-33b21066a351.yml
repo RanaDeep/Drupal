@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_shipping_method
+  uuid: 5fcc1029-ac8e-458d-bd5f-33b21066a351
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+default:
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  plugin:
+    -
+      target_plugin_id: flat_rate
+      target_plugin_configuration:
+        rate_label: Shipping
+        rate_description: ''
+        rate_amount:
+          number: '1.99'
+          currency_code: USD
+        services:
+          - default
+        default_package_type: custom_box
+        workflow: shipment_default
+  name:
+    -
+      value: Shipping
+  condition_operator:
+    -
+      value: AND
+  weight:
+    -
+      value: 0
+  status:
+    -
+      value: true

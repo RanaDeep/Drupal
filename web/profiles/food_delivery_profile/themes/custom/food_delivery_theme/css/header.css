@@ -1,0 +1,317 @@
+/*
+* Styles for header.
+*/
+
+/*
+* Imports styles for search block.
+*/
+@import 'header-search.css';
+
+/*
+* Imports styles for main menu.
+*/
+@import 'header-menu.css'; #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #232832;
+  color: #fff;
+  z-index: 10;
+}
+
+#header .menu-open {
+  margin-top: 35px;
+  float: right;
+  width: 20px;
+  height: 20px;
+  background: url(../images/menu.png) center center no-repeat;
+  cursor: pointer;
+}
+
+#header .menu-open:hover {
+  background: url(../images/menu-hover.png) center center no-repeat;
+}
+
+#toolbar-administration + .dialog-off-canvas-main-canvas #page-wrapper #page #header {
+  top: 79px;
+}
+
+#header-wrapper {
+  position: relative;
+  height: 92px;
+  padding: 0;
+  width: auto !important;
+}
+
+h1#site-name {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: none;
+}
+
+h1#site-name a {
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+}
+
+.site-branding {
+  float: left;
+  padding-top: 23px;
+}
+
+.site-branding .site-branding__logo,
+#branding #name-and-slogan {
+  float: left;
+}
+
+.site-branding .site-branding__logo {
+  margin-right: 13px;
+  height: auto;
+}
+
+#branding #name-and-slogan {
+  vertical-align: top;
+}
+
+#branding #name-and-slogan h1 {
+  line-height: 50px;
+}
+
+#branding #name-and-slogan a {
+  color: white;
+  font-family: "Gilroy", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 30px;
+  vertical-align: text-top;
+}
+
+#header .cart-block--summary__count {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#header .cart-block--summary__count::before {
+  content: '';
+  background: url(../images/bag.png) left center no-repeat;
+  width: 24px;
+  height: 33px;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.region-header .header-cart-block {
+  position: relative;
+  margin: 27px 34px 0 0 !important;
+}
+
+.region-header .header-cart-block .view-content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 65px;
+  right: -54px;
+  background-color: #fff;
+  color: #919191;
+  width: 300px;
+  padding: 70px 30px 30px;
+  box-shadow: 0 6px 25px 0 rgba(35, 40, 50, 0.16);
+  display: none;
+}
+
+.region-header .header-cart-block .view-empty {
+  box-sizing: border-box;
+  position: absolute;
+  top: 180%;
+  right: -54px;
+  background-color: #fff;
+  color: #919191;
+  width: 300px;
+  padding: 70px 30px 30px;
+  box-shadow: 0 6px 25px 0 rgba(35, 40, 50, 0.16);
+  display: none;
+}
+
+.region-header .header-cart-block .view-empty,
+.region-header .header-cart-block .order-total-line.order-total-line__subtotal,
+.region-header .order-total-line.order-total-line__adjustment,
+.region-header .header-cart-block .view-header .order-total-line.order-total-line__total .order-total-line-label {
+  display: none;
+}
+
+.region-header .header-cart-block .view-header .order-total-line.order-total-line__total {
+  padding: 0 !important;
+  margin-top: -15px;
+}
+
+.region-header .header-cart-block .view-footer .order-total-line {
+  padding: 0 !important;
+}
+
+.region-header .header-cart-block .view-header .order-total-line.order-total-line__total .order-total-line-value {
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  font-family: 'A Garamond Pro', sans-serif;
+  font-weight: bold;
+  color: #bcbcbc;
+  pointer-events: none;
+  text-align: left !important;
+  width: auto;
+  margin-left: 32px;
+}
+
+.region-header .header-cart-block .view-content .views-row {
+  margin-bottom: 15px;
+}
+
+.region-header .header-cart-block .view-content .views-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.region-header .header-cart-block .view-content .views-field-field-product-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.region-header .header-cart-block .view-content .views-field-line-item-title {
+  padding-left: 110px;
+}
+
+.region-header .header-cart-block .view-content .field-content {
+  display: inline-block;
+}
+
+.region-header .header-cart-block .view-content .product-cart-title a,
+.region-header .header-cart-block .view-footer .cart-total,
+.region-header .header-cart-block .view-content .field-items,
+.region-header .header-cart-block .view-empty,
+.region-header .header-cart-block .view-footer .order-total-line.order-total-line__total {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: bold;
+  color: #424242;
+}
+
+.region-header .header-cart-block .view-content .product-cart-title {
+  font-size: 16px;
+  max-width: 54%;
+}
+
+.region-header .header-cart-block .view-footer .cart-total {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 20px;
+}
+
+.region-header .header-cart-block .view-empty .field-label,
+.region-header .header-cart-block .view-empty .field-items,
+.region-header .header-cart-block .view-footer .order-total-line.order-total-line__total {
+  font-size: 18px;
+}
+
+.region-header .header-cart-block .view-footer .order-total-line-value {
+  width: max-content;
+}
+
+.region-header .header-cart-block .view-empty .field-name-commerce-order-total,
+.region-header .header-cart-block .view-footer .order-total-line.order-total-line__total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.region-header .header-cart-block .view-content .field-name-commerce-order-total:after {
+  display: none;
+}
+
+.header-cart-block .button {
+  line-height: 18px;
+  display: block;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.region-header .header-cart-block .view-empty .empty-cart {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.region-header .header-cart-block .my-cart-info {
+  position: relative;
+  background: url(../images/bag.png) left center no-repeat;
+  padding-left: 32px;
+  min-height: 36px;
+  cursor: pointer;
+}
+
+.region-header .header-cart-block .my-cart-info .views-label {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 12px;
+  padding-top: 7px;
+}
+
+.region-header .header-cart-block .my-cart-info + .commerce-order-handler-area-order-total {
+  position: relative;
+  top: -15px;
+  left: 33px;
+  font-size: 14px;
+  font-family: 'A Garamond Pro', sans-serif;
+  font-weight: bold;
+  color: #bcbcbc;
+  background: #232832;
+  pointer-events: none;
+}
+
+.region-header .header-cart-block .my-cart-info.empty:after {
+  content: "$0.00";
+  display: block;
+  position: absolute;
+  bottom: -7px;
+  left: 33px;
+  font-size: 14px;
+  font-family: 'A Garamond Pro', sans-serif;
+  font-weight: bold;
+  color: #bcbcbc;
+  pointer-events: none;
+}
+
+
+.region-header {
+  padding: 0;
+}
+
+.region-header .block {
+  margin: 0;
+}
+
+.region-header .block:not(.site-branding) {
+  clear: none !important;
+  margin: 0;
+}
+
+#block-food-delivery-theme-cart {
+  margin: 27px 34px 0 0;
+}

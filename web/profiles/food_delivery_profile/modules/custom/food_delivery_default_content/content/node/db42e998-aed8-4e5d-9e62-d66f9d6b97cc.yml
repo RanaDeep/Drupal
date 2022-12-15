@@ -1,0 +1,727 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: db42e998-aed8-4e5d-9e62-d66f9d6b97cc
+  bundle: page
+  default_langcode: en
+  depends:
+    35fad3b1-f89e-4e29-88e8-89728314d9aa: media
+    cbf3b084-2643-48a9-98ef-aedfe375571b: media
+    0eb34cba-f2f9-4eb7-b619-ead3774daaa5: media
+    0f4c1cbb-3137-4b03-91f2-a626ad54a616: media
+    5c50e48b-ffed-40db-bbac-2a198742faa1: media
+    f13ea7de-c869-4b71-8096-42ed54e3d5cd: media
+    8d1384d9-b10f-4d72-a62e-21573bd36153: media
+    f7a54fce-af60-47fa-9319-ca467590db6a: media
+    1ed15c48-bd21-4b1d-b69b-f18b3e614589: media
+    ece426c8-7a40-4aef-8a93-346fbbfde090: media
+    c4acba97-46be-4981-b806-1c95ee17ed35: media
+    62c7d5e3-2e0e-4b50-9e0e-f6af246e36b2: media
+    4c3bbde8-9a3d-4312-bbe6-e357792f1a95: media
+    99cacd1b-4d0a-46d0-835e-4546908e415f: media
+    86aeb2d9-bbaf-41f4-bb41-f9a949444951: media
+    099ec51e-5e0c-4f37-bacc-927cf91db852: media
+    e039db94-e642-4594-bd8d-bd0f0bb04a1e: media
+    336f3a56-d82a-41fb-b956-ac3f085756c8: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'About Company'
+  created:
+    -
+      value: 1600233339
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /about
+      langcode: en
+      pathauto: 0
+  field_page_banner:
+    -
+      entity: 35fad3b1-f89e-4e29-88e8-89728314d9aa
+  field_page_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8330c703-fbda-4242-8f24-f2331b0137b0
+          bundle: facts
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600233347
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_facts:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a58ee28c-2ae0-4599-be8b-ef45de22a4ff
+                  bundle: fact
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600233347
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_fact_icon:
+                    -
+                      entity: cbf3b084-2643-48a9-98ef-aedfe375571b
+                  field_fact_text:
+                    -
+                      value: 'In our store only fresh products'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 844ddd08-ddb7-438d-b76b-fc7621fb0f38
+                  bundle: fact
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600233391
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_fact_icon:
+                    -
+                      entity: 0eb34cba-f2f9-4eb7-b619-ead3774daaa5
+                  field_fact_text:
+                    -
+                      value: 'Special for you beneficial offers everyday'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5d448d33-3f68-43b7-b0ca-ba5441956f7a
+                  bundle: fact
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600233423
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_fact_icon:
+                    -
+                      entity: 0f4c1cbb-3137-4b03-91f2-a626ad54a616
+                  field_fact_text:
+                    -
+                      value: 'The fast and easy shopping'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ac87a2ab-280a-4c80-ab8f-55a11233d9c9
+                  bundle: fact
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600233452
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_fact_icon:
+                    -
+                      entity: 5c50e48b-ffed-40db-bbac-2a198742faa1
+                  field_fact_text:
+                    -
+                      value: 'Professional and friendly staff'
+          field_facts_title:
+            -
+              value: 'Our store is the best solution for an easy shopping.'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 09629afa-725c-4942-9ddb-e440d26ffe6b
+          bundle: team
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600418647
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_team:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 52ef11f4-e69d-474b-85f3-2e9db98dbca8
+                  bundle: worker
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600418733
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_worker_name:
+                    -
+                      value: 'Susan Evans'
+                  field_worker_photo:
+                    -
+                      entity: f13ea7de-c869-4b71-8096-42ed54e3d5cd
+                  field_worker_position:
+                    -
+                      value: Founder
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f0a4216d-6765-4413-96aa-67426c022c46
+                  bundle: worker
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600418692
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_worker_name:
+                    -
+                      value: 'Alice Davied'
+                  field_worker_photo:
+                    -
+                      entity: 8d1384d9-b10f-4d72-a62e-21573bd36153
+                  field_worker_position:
+                    -
+                      value: Co-Founder
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 79e2cc3d-98ee-4f5e-9382-8112da4cd32e
+                  bundle: worker
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600418647
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_worker_name:
+                    -
+                      value: 'Daniel Moore'
+                  field_worker_photo:
+                    -
+                      entity: f7a54fce-af60-47fa-9319-ca467590db6a
+                  field_worker_position:
+                    -
+                      value: 'Project Manager'
+          field_team_title:
+            -
+              value: 'Our team - is a key to your success.'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1214e546-63b5-4132-885e-f3627310d29c
+          bundle: clients
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600239919
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_clients:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 41554491-c001-4dbd-a352-34c7dba9b710
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600239919
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: 1ed15c48-bd21-4b1d-b69b-f18b3e614589
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: dd05b1c7-05d7-401d-a596-8aeeb6ca14ec
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240015
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: ece426c8-7a40-4aef-8a93-346fbbfde090
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: bd49b3e2-3db5-486f-b74f-c7ef13604056
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240038
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: c4acba97-46be-4981-b806-1c95ee17ed35
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: fd0a7bfa-fa16-410d-90d3-caffa7a17d4e
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: 62c7d5e3-2e0e-4b50-9e0e-f6af246e36b2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 11b1d497-c6ba-47e6-97d8-5ab3ae6708c4
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240069
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: 4c3bbde8-9a3d-4312-bbe6-e357792f1a95
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d6cc9536-997c-4f5b-98df-7716db4354ae
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240087
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: 99cacd1b-4d0a-46d0-835e-4546908e415f
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e0daff3d-9632-4a68-98e6-1131d829cf45
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240097
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: 86aeb2d9-bbaf-41f4-bb41-f9a949444951
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: fa118c13-f9f8-483d-b9d0-17e114fc71d0
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240126
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: 099ec51e-5e0c-4f37-bacc-927cf91db852
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3adf9d7a-7c9c-48e3-b605-121469b9f98c
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240140
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: e039db94-e642-4594-bd8d-bd0f0bb04a1e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 40e4b72f-2ff5-464a-b64d-f944b4a366eb
+                  bundle: client
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600240150
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_client_logo:
+                    -
+                      entity: 336f3a56-d82a-41fb-b956-ac3f085756c8
+          field_clients_title:
+            -
+              value: 'We are proud of our clients'
+  layout_builder__layout:
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              banner: banner
+            ds_content:
+              banner: banner
+        components:
+          204b5a77-5c28-4359-8595-0332391313f3:
+            uuid: 204b5a77-5c28-4359-8595-0332391313f3
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-title
+                  style: ''
+                  data: ''
+            weight: 0
+          1d192e28-9db2-4577-996b-1dd1ef7cc2e6:
+            uuid: 1d192e28-9db2-4577-996b-1dd1ef7cc2e6
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_banner'
+              label: Banner
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-image
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              breadcrumbs: breadcrumbs
+            ds_content:
+              breadcrumbs: breadcrumbs
+        components:
+          832b7c45-d7b8-47ab-83c5-9f2ae74084bf:
+            uuid: 832b7c45-d7b8-47ab-83c5-9f2ae74084bf
+            region: ds_content
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              columns: columns
+            ds_content:
+              columns: columns
+        components:
+          fbc0c954-38f9-411a-ba05-d60507f487c2:
+            uuid: fbc0c954-38f9-411a-ba05-d60507f487c2
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_paragraphs'
+              label: Paragraphs
+              provider: layout_builder
+              label_display: 0
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }

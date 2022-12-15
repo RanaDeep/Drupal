@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: e8b932a4-e278-4b24-b698-6295c261b37b
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    cf74f8ca-9a28-4a14-a265-01af82960984: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: Carrots
+  variations:
+    -
+      entity: cf74f8ca-9a28-4a14-a265-01af82960984
+  path:
+    -
+      alias: /carrots
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1592918475

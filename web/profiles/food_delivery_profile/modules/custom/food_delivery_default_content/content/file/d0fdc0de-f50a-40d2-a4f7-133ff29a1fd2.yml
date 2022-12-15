@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d0fdc0de-f50a-40d2-a4f7-133ff29a1fd2
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Cherry_tomatoes_Spain.jpg
+  uri:
+    -
+      value: 'public://2020-06/Cherry_tomatoes_Spain_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 29110
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592801542
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

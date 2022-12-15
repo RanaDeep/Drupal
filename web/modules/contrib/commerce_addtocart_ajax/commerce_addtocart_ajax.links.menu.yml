@@ -1,0 +1,5 @@
+commerce_addtocart_ajax.configuration:
+  title: 'Add To Cart Ajax'
+  route_name: 'commerce_addtocart_ajax.settings'
+  parent: 'commerce.configuration'
+  weight: 20

@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: product_cart
+label: 'Product: Cart (170x125)'
+effects:
+  25f49258-9ac7-4762-b9ff-7198008b48b1:
+    uuid: 25f49258-9ac7-4762-b9ff-7198008b48b1
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 170
+      height: 125
+      crop_type: focal_point

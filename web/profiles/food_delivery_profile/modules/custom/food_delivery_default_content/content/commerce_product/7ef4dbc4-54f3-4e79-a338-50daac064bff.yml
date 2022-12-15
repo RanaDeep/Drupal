@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 7ef4dbc4-54f3-4e79-a338-50daac064bff
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    7feb39ba-bd12-4122-a746-e9b535b2c2d7: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: Asparagus
+  variations:
+    -
+      entity: 7feb39ba-bd12-4122-a746-e9b535b2c2d7
+  path:
+    -
+      alias: /asparagus
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1593164511

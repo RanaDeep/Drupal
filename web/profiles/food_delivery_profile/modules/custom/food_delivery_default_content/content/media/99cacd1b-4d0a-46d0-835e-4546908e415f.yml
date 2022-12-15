@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 99cacd1b-4d0a-46d0-835e-4546908e415f
+  bundle: image
+  default_langcode: en
+  depends:
+    34a735a7-3158-4fc6-bc80-b131eb604e42: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'retro racer.png'
+  created:
+    -
+      value: 1594892589
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 34a735a7-3158-4fc6-bc80-b131eb604e42
+      alt: 'Retro Racer'
+      title: ''
+      width: 172
+      height: 134

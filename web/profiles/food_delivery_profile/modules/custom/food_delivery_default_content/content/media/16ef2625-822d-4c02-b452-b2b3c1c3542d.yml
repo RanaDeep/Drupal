@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 16ef2625-822d-4c02-b452-b2b3c1c3542d
+  bundle: image
+  default_langcode: en
+  depends:
+    8dfcff7c-ca2b-4096-ac04-7b5e86b58cd1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Blueberries_Puerto_Montt.jpg
+  created:
+    -
+      value: 1594637095
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 8dfcff7c-ca2b-4096-ac04-7b5e86b58cd1
+      alt: 'Blueberries Puerto Montt'
+      title: ''
+      width: 400
+      height: 480

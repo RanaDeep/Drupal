@@ -1,0 +1,13 @@
+name: ADCI Solutions contact information
+type: module
+description: Shows ADCI Solutions contact information on administrative pages for users with administrative permissions.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:block
+
+# Information added by Drupal.org packaging script on 2021-01-11
+version: '8.x-1.x-dev'
+project: 'food_delivery_profile'
+datestamp: 1610356091

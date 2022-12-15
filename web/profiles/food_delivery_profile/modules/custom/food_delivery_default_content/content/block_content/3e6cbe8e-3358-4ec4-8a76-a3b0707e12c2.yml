@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 3e6cbe8e-3358-4ec4-8a76-a3b0707e12c2
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Copyright info'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>© 2018 Company name | Cozy Food Shop</p>\r\n"
+      format: full_html
+      summary: ''

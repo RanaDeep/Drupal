@@ -1,0 +1,77 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slide_with_block_block
+    - paragraphs.paragraphs_type.slide_with_block
+  module:
+    - viewsreference
+id: paragraph.slide_with_block.field_slide_with_block_block
+field_name: field_slide_with_block_block
+entity_type: paragraph
+bundle: slide_with_block
+label: Block
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    options:
+      title: 0
+      argument: ''
+    display_id: block_1
+    argument: null
+    title: 0
+    data: null
+    target_uuid: 4a1b7d0f-62d9-46c0-8b43-8f058bbac97e
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+    embed: 0
+  preselect_views:
+    product_of_the_day: product_of_the_day
+    about_company: 0
+    block_content: 0
+    catalog: 0
+    categories: 0
+    clients: 0
+    comment: 0
+    comments_recent: 0
+    commerce_activity: 0
+    commerce_carts: 0
+    commerce_cart_block: 0
+    commerce_cart_form: 0
+    commerce_checkout_order_summary: 0
+    commerce_orders: 0
+    commerce_order_item_table: 0
+    commerce_products: 0
+    commerce_stores: 0
+    commerce_user_orders: 0
+    contact_us: 0
+    content: 0
+    content_recent: 0
+    custom_shopping_cart: 0
+    file_entity_files: 0
+    frequently_asked_questions: 0
+    frontpage: 0
+    home_page_slider: 0
+    how_it_works: 0
+    media: 0
+    media_library: 0
+    order_shipments: 0
+    popular_tags: 0
+    profiles: 0
+    user_admin_people: 0
+    watchdog: 0
+    webform_submissions: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

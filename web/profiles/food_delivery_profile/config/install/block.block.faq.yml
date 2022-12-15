@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.faq
+  module:
+    - system
+  theme:
+    - bartik
+id: faq
+theme: bartik
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'system_menu_block:faq'
+settings:
+  id: 'system_menu_block:faq'
+  label: FAQ
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

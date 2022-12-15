@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_store
+  uuid: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  bundle: online
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Food Delivery'
+  mail:
+    -
+      value: alexander.kalashnik.adci@gmail.com
+  default_currency:
+    -
+      target_id: RUB
+  timezone:
+    -
+      value: Asia/Omsk
+  address:
+    -
+      langcode: ''
+      country_code: RU
+      administrative_area: 'Omskaya oblast'''
+      locality: Omsk
+      dependent_locality: ''
+      postal_code: '644024'
+      sorting_code: ''
+      address_line1: 'Dumskaya 7'
+      address_line2: ''
+      organization: ''
+      given_name: ''
+      additional_name: ''
+      family_name: ''
+  billing_countries:
+    -
+      value: RU
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  is_default:
+    -
+      value: true
+  prices_include_tax:
+    -
+      value: true
+  tax_registrations:
+    -
+      value: RU

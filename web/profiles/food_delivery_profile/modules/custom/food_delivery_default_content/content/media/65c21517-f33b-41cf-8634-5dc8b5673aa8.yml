@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 65c21517-f33b-41cf-8634-5dc8b5673aa8
+  bundle: image
+  default_langcode: en
+  depends:
+    dd9c66ac-da27-48ec-8dbd-ea598fdcce85: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: rectangle-3_1.jpg
+  created:
+    -
+      value: 1600670542
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: dd9c66ac-da27-48ec-8dbd-ea598fdcce85
+      alt: Slide3
+      title: ''
+      width: 1170
+      height: 640

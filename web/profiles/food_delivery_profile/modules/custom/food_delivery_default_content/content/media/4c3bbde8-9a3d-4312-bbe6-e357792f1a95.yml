@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4c3bbde8-9a3d-4312-bbe6-e357792f1a95
+  bundle: image
+  default_langcode: en
+  depends:
+    4d4b75f7-564e-4701-894b-95ea15fd027b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'joe steven.png'
+  created:
+    -
+      value: 1594892621
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 4d4b75f7-564e-4701-894b-95ea15fd027b
+      alt: 'Joe Steven'
+      title: ''
+      width: 163
+      height: 143

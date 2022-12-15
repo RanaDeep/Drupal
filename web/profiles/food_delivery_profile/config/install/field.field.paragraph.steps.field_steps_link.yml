@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_steps_link
+    - paragraphs.paragraphs_type.steps
+  module:
+    - link
+id: paragraph.steps.field_steps_link
+field_name: field_steps_link
+entity_type: paragraph
+bundle: steps
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

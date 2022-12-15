@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cb838fd7-0496-443e-9594-16f47e46f1b0
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Almonds.jpg
+  uri:
+    -
+      value: 'public://2020-06/Almonds_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38479
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1593164186
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

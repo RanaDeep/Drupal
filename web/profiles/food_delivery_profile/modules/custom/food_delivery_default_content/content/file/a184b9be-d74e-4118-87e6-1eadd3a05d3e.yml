@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a184b9be-d74e-4118-87e6-1eadd3a05d3e
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mail.png
+  uri:
+    -
+      value: 'public://2020-09/mail_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 882
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600238750
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

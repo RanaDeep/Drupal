@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c40dec72-2b7c-47ef-991e-bcea067ea5a1
+  bundle: image
+  default_langcode: en
+  depends:
+    efc31f2a-5ec9-42ca-9940-b7e041ace41c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: letter.png
+  created:
+    -
+      value: 1600232415
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: efc31f2a-5ec9-42ca-9940-b7e041ace41c
+      alt: Letter
+      title: ''
+      width: 202
+      height: 126

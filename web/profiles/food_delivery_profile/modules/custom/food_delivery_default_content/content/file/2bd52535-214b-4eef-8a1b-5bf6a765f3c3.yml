@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2bd52535-214b-4eef-8a1b-5bf6a765f3c3
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cart-phone_0.png
+  uri:
+    -
+      value: 'public://inline-images/cart-phone_0_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1360
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1598432723
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

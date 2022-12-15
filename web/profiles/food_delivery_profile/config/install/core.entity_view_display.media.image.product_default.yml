@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.product_default
+    - field.field.media.image.field_media_image
+    - image.style.product_default
+    - media.type.image
+  module:
+    - image
+id: media.image.product_default
+targetEntityType: media
+bundle: image
+mode: product_default
+content:
+  field_media_image:
+    label: visually_hidden
+    settings:
+      image_style: product_default
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    weight: 1
+    region: content
+hidden:
+  created: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

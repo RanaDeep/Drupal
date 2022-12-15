@@ -1,0 +1,98 @@
+/*
+* Styles for main menu.
+*/
+#menu {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #232832 url(../images/backmenu.jpg) center center no-repeat;
+}
+
+#menu .menu-bg-color {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#menu .menu-close {
+  background: url(../images/close.png) center center no-repeat;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 39px;
+  right: 39px;
+  cursor: pointer;
+}
+
+#menu-wrapper {
+  position: absolute;
+  display: block;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+#block-food-delivery-theme-main-menu {
+  border: none;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 25%;
+}
+
+#block-food-delivery-theme-main-menu .content ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+#block-food-delivery-theme-main-menu .content ul li {
+  padding: 0;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+#block-food-delivery-theme-main-menu .content ul li a {
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  transition: all 0.2s;
+  border: none;
+  display: inline-block;
+}
+
+#block-food-delivery-theme-main-menu .content ul li a:hover {
+  color: #0ab29c;
+  letter-spacing: 0.15em;
+  background: none;
+}
+
+#block-food-delivery-theme-main-menu .content ul li a:focus {
+  border: 0;
+  outline: 0;
+  background: none;
+}
+
+.region.region-menu {
+  height: 100%;
+}
+
+.menu-copyright {
+  text-align: center;
+  margin-top: -25px;
+}
+
+.menu-copyright p {
+  color: #fff;
+}

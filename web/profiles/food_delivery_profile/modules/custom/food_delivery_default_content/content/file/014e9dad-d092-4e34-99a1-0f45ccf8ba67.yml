@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 014e9dad-d092-4e34-99a1-0f45ccf8ba67
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: location.png
+  uri:
+    -
+      value: 'public://inline-images/location_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1981
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1595483593
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

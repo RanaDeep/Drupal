@@ -1,0 +1,37 @@
+diff --git a/src/Helper/AjaxCartHelper.php b/src/Helper/AjaxCartHelper.php
+index 7074fe7..3be150a 100644
+--- a/src/Helper/AjaxCartHelper.php
++++ b/src/Helper/AjaxCartHelper.php
+@@ -122,22 +122,7 @@ class AjaxCartHelper {
+    *   Returns FALSE if no commerce cart block is visible.
+    */
+   private function getCartBlockId() {
+-    // Returns an array of regions each with an array of blocks.
+-    $regions = $this->blockRepository->getVisibleBlocksPerRegion();
+-
+-    // Iterate all visible blocks and regions.
+-    foreach ($regions as $region) {
+-      foreach ($region as $block) {
+-        $plugin_id = $block->get('plugin');
+-        // Check if this is a commerce cart block.
+-        if ($plugin_id === 'commerce_cart') {
+-          $cart_block_id = $block->id();
+-          return $cart_block_id;
+-        }
+-      }
+-    }
+-
+-    return FALSE;
++    return 'food_delivery_theme_shopping_cart';
+   }
+ 
+   /**
+@@ -191,7 +176,7 @@ class AjaxCartHelper {
+    */
+   public function ajaxAddToCartAjaxResponse(array &$form, $form_id, AjaxResponse $response) {
+     $response->addCommand(
+-      new ReplaceCommand('.block-commerce-cart', $this->cartBlock)
++      new ReplaceCommand('.header-cart-block', $this->cartBlock)
+     );
+ 
+     $selector = $this->config->get('status_messages_selector') ?: '.status-messages';

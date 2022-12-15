@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8e1b5f77-39ba-42ba-9f2f-17744e5e3a4b
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Apples.jpg
+  uri:
+    -
+      value: 'public://2020-06/Apples_2_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40254
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592802968
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

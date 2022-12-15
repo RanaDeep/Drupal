@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f7a54fce-af60-47fa-9319-ca467590db6a
+  bundle: image
+  default_langcode: en
+  depends:
+    7fe0d5c2-2213-4fae-93ea-a1e639825e7f: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: about-photo-1.jpg
+  created:
+    -
+      value: 1600233571
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7fe0d5c2-2213-4fae-93ea-a1e639825e7f
+      alt: 'Daniel Moore'
+      title: ''
+      width: 459
+      height: 464

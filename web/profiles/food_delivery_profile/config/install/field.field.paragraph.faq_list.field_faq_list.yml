@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_faq_list
+    - paragraphs.paragraphs_type.faq
+    - paragraphs.paragraphs_type.faq_list
+  module:
+    - entity_reference_revisions
+id: paragraph.faq_list.field_faq_list
+field_name: field_faq_list
+entity_type: paragraph
+bundle: faq_list
+label: 'FAQ List'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      faq: faq
+    target_bundles_drag_drop:
+      faq:
+        enabled: true
+        weight: 3
+      faq_list:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

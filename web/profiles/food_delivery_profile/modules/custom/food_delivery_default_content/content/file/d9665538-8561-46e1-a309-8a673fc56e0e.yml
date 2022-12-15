@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d9665538-8561-46e1-a309-8a673fc56e0e
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rectangle-3_0.jpg
+  uri:
+    -
+      value: 'public://2020-09/rectangle-3_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 121293
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600670519
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

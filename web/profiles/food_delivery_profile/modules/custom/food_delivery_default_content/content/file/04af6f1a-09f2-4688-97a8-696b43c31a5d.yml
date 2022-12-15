@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 04af6f1a-09f2-4688-97a8-696b43c31a5d
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: slide-icon-4.png
+  uri:
+    -
+      value: 'public://2020-09/slide-icon-4_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3392
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600252954
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

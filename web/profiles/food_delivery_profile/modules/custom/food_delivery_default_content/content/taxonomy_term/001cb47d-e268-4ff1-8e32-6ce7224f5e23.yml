@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 001cb47d-e268-4ff1-8e32-6ce7224f5e23
+  bundle: categories
+  default_langcode: en
+  depends:
+    a4a4bcee-8251-49a9-bffc-09bdb76617aa: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: tropical
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: a4a4bcee-8251-49a9-bffc-09bdb76617aa
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /tropical
+      langcode: en
+      pathauto: 1

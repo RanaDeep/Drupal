@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: ca8d793d-3949-4d3a-b2e2-f687e5e0ef2b
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    d06d3bb8-aa61-4c00-a541-9b7baf12a750: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: 'Basil scented'
+  variations:
+    -
+      entity: d06d3bb8-aa61-4c00-a541-9b7baf12a750
+  path:
+    -
+      alias: /basil-scented
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1593164658

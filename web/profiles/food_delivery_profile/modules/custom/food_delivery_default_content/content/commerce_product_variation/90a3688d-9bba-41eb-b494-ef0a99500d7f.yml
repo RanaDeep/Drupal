@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 90a3688d-9bba-41eb-b494-ef0a99500d7f
+  bundle: product
+  default_langcode: en
+  depends:
+    b1dfecc1-2219-45a3-93e8-ec4751c8ddb7: commerce_product
+    001cb47d-e268-4ff1-8e32-6ce7224f5e23: taxonomy_term
+    40f0aa6c-a8ce-434a-b04d-a43658491436: media
+    59edc1f7-ef06-4a3c-95f6-ea2c6e8474ab: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: b1dfecc1-2219-45a3-93e8-ec4751c8ddb7
+  sku:
+    -
+      value: '1480238653'
+  title:
+    -
+      value: Banana
+  list_price:
+    -
+      number: '27.000000'
+      currency_code: USD
+      formatted: $27.00
+  price:
+    -
+      number: '37.000000'
+      currency_code: USD
+      formatted: $37.00
+  created:
+    -
+      value: 1592916676
+  field_product_category:
+    -
+      entity: 001cb47d-e268-4ff1-8e32-6ce7224f5e23
+  field_product_featured:
+    -
+      value: false
+  field_product_image:
+    -
+      entity: 40f0aa6c-a8ce-434a-b04d-a43658491436
+  field_product_new:
+    -
+      value: true
+  field_product_on_sale:
+    -
+      value: false
+  field_product_tag:
+    -
+      entity: 59edc1f7-ef06-4a3c-95f6-ea2c6e8474ab
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: lb

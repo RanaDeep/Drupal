@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 33584c66-e285-48c6-8601-ae72150eeebb
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: about-photo-3.jpg
+  uri:
+    -
+      value: 'public://2020-09/about-photo-3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 118821
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600419086
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

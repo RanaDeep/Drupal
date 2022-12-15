@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6f0bd2cf-f0ca-4edb-9f41-7691c3686523
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Coconut_Thailand_0.jpg
+  uri:
+    -
+      value: 'public://2020-06/Coconut_Thailand_0_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31423
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592802194
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

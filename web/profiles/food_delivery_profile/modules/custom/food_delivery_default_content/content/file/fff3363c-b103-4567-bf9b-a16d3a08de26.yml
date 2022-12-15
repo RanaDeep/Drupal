@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fff3363c-b103-4567-bf9b-a16d3a08de26
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Basil_scented_0.jpg
+  uri:
+    -
+      value: 'public://2020-06/Basil_scented_0_1_1_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 32841
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592801905
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

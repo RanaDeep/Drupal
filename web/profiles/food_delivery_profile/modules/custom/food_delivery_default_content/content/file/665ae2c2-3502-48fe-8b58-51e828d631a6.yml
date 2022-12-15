@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 665ae2c2-3502-48fe-8b58-51e828d631a6
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'smith f.png'
+  uri:
+    -
+      value: 'public://2020-07/smith f_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 13930
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892531
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

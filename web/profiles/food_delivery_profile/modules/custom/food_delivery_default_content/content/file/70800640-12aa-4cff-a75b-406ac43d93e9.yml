@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 70800640-12aa-4cff-a75b-406ac43d93e9
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: contact-us-banner.jpg
+  uri:
+    -
+      value: 'public://2020-09/contact-us-banner.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 321360
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600410047
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

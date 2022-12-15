@@ -1,0 +1,7 @@
+commerce_addtocart_ajax.settings:
+  path: '/admin/commerce/config/commerce-addtocart-ajax'
+  defaults:
+    _form: '\Drupal\commerce_addtocart_ajax\Form\CommerceAddToCartAjaxSettingsForm'
+    _title: 'Add to cart ajax settings'
+  requirements:
+    _permission: 'administer commerce addtocart ajax'

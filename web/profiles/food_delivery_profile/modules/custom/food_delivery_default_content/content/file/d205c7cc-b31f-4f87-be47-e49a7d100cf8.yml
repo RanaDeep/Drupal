@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d205c7cc-b31f-4f87-be47-e49a7d100cf8
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: woody.png
+  uri:
+    -
+      value: 'public://2020-07/woody_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 10447
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892446
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

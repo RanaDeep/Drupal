@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.catalog
+  module:
+    - views
+  theme:
+    - food_delivery_theme
+id: food_delivery_theme_products_catalog_search
+theme: food_delivery_theme
+region: header
+weight: -9
+provider: null
+plugin: 'views_exposed_filter_block:catalog-products_catalog_search'
+settings:
+  id: 'views_exposed_filter_block:catalog-products_catalog_search'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility: {  }

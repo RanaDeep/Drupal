@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e039db94-e642-4594-bd8d-bd0f0bb04a1e
+  bundle: image
+  default_langcode: en
+  depends:
+    3eafb4ad-c74e-48b8-98b1-7ef5a1bb95af: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'the lumber jack.png'
+  created:
+    -
+      value: 1594892492
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 3eafb4ad-c74e-48b8-98b1-7ef5a1bb95af
+      alt: 'the lumber jack'
+      title: ''
+      width: 151
+      height: 135

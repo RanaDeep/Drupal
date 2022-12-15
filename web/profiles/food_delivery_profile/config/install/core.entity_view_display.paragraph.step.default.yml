@@ -1,0 +1,167 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.step.field_step_icon
+    - field.field.paragraph.step.field_step_text
+    - field.field.paragraph.step.field_step_title
+    - paragraphs.paragraphs_type.step
+  module:
+    - ds
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              step: step
+            ds_content: {  }
+        components:
+          ea2b265d-d8b7-4bf3-bfd1-ed64b92a97dc:
+            uuid: ea2b265d-d8b7-4bf3-bfd1-ed64b92a97dc
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:step:field_step_icon'
+              label: Icon
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: step-icon
+                  style: ''
+                  data: ''
+            weight: 0
+          9c3d8890-84ed-418a-966f-71c0098a6397:
+            uuid: 9c3d8890-84ed-418a-966f-71c0098a6397
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:step:field_step_title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: step-title
+                  style: ''
+                  data: ''
+            weight: 1
+          be6e94e3-d9a7-49ce-b3cf-d7361a8cf5dc:
+            uuid: be6e94e3-d9a7-49ce-b3cf-d7361a8cf5dc
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:step:field_step_text'
+              label: Text
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: basic_string
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: step-text
+                  style: ''
+                  data: ''
+            weight: 2
+        third_party_settings: {  }
+id: paragraph.step.default
+targetEntityType: paragraph
+bundle: step
+mode: default
+content:
+  field_step_icon:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_step_text:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_step_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

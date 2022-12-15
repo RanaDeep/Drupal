@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8a946026-dcfe-4872-8825-61edb5acdf96
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Bell_Peper_Australia_1.jpg
+  uri:
+    -
+      value: 'public://2020-06/Bell_Peper_Australia_1_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 29217
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1593164941
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

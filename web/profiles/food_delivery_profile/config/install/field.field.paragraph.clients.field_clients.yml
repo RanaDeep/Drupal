@@ -1,0 +1,78 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_clients
+    - paragraphs.paragraphs_type.client
+    - paragraphs.paragraphs_type.clients
+  module:
+    - entity_reference_revisions
+id: paragraph.clients.field_clients
+field_name: field_clients
+entity_type: paragraph
+bundle: clients
+label: Clients
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      client: client
+    target_bundles_drag_drop:
+      body:
+        weight: 18
+        enabled: false
+      client:
+        enabled: true
+        weight: 19
+      clients:
+        weight: 20
+        enabled: false
+      contact:
+        weight: 21
+        enabled: false
+      fact:
+        weight: 22
+        enabled: false
+      facts:
+        weight: 23
+        enabled: false
+      faq:
+        weight: 24
+        enabled: false
+      faq_list:
+        weight: 25
+        enabled: false
+      info_block:
+        weight: 26
+        enabled: false
+      info_blocks:
+        weight: 27
+        enabled: false
+      slide_content_center_item:
+        weight: 28
+        enabled: false
+      slide_content_left:
+        weight: 29
+        enabled: false
+      slide_with_block:
+        weight: 30
+        enabled: false
+      step:
+        weight: 31
+        enabled: false
+      steps:
+        weight: 32
+        enabled: false
+      team:
+        weight: 33
+        enabled: false
+      worker:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

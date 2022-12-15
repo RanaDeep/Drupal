@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: d06d3bb8-aa61-4c00-a541-9b7baf12a750
+  bundle: product
+  default_langcode: en
+  depends:
+    ca8d793d-3949-4d3a-b2e2-f687e5e0ef2b: commerce_product
+    a1ac933e-bd88-4f0c-a0b3-7762fce7b260: taxonomy_term
+    0882dd6a-60f7-4565-b2b7-21af2085b6e1: media
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: ca8d793d-3949-4d3a-b2e2-f687e5e0ef2b
+  sku:
+    -
+      value: '2182349234'
+  title:
+    -
+      value: 'Basil scented'
+  price:
+    -
+      number: '30.000000'
+      currency_code: USD
+      formatted: $30.00
+  created:
+    -
+      value: 1593164698
+  field_product_category:
+    -
+      entity: a1ac933e-bd88-4f0c-a0b3-7762fce7b260
+  field_product_featured:
+    -
+      value: true
+  field_product_image:
+    -
+      entity: 0882dd6a-60f7-4565-b2b7-21af2085b6e1
+  field_product_new:
+    -
+      value: false
+  field_product_on_sale:
+    -
+      value: false
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

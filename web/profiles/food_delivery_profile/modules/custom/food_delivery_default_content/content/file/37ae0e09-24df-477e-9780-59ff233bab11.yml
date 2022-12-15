@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 37ae0e09-24df-477e-9780-59ff233bab11
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'joe sterling.png'
+  uri:
+    -
+      value: 'public://2020-07/joe sterling_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 17830
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892654
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

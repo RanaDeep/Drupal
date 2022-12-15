@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 267ac3e3-4499-47fe-8a7c-eb0df66c99cf
+  bundle: image
+  default_langcode: en
+  depends:
+    cdee80b0-bff4-4738-a1cb-62316e15f74e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Apples.jpg
+  created:
+    -
+      value: 1594636834
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: cdee80b0-bff4-4738-a1cb-62316e15f74e
+      alt: Apples
+      title: ''
+      width: 400
+      height: 480

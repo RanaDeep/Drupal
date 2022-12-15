@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 58075a4c-3adc-48a3-8de5-a948c1fe076f
+  bundle: image
+  default_langcode: en
+  depends:
+    20ac3f16-08fd-4018-946f-48ae3add8962: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Beets.jpg
+  created:
+    -
+      value: 1594637062
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 20ac3f16-08fd-4018-946f-48ae3add8962
+      alt: Beets
+      title: ''
+      width: 400
+      height: 480

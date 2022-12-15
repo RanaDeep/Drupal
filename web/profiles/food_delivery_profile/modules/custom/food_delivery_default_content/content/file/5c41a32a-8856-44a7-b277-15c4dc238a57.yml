@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5c41a32a-8856-44a7-b277-15c4dc238a57
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: about-icon-4.png
+  uri:
+    -
+      value: 'public://2020-09/about-icon-4_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 6614
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600233463
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

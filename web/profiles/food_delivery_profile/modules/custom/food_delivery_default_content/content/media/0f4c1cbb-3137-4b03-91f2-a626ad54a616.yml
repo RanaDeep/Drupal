@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0f4c1cbb-3137-4b03-91f2-a626ad54a616
+  bundle: image
+  default_langcode: en
+  depends:
+    f3de4b43-d303-4b28-9cca-fa294d396245: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: about-icon-3.png
+  created:
+    -
+      value: 1600233438
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: f3de4b43-d303-4b28-9cca-fa294d396245
+      alt: about-icon-3
+      title: ''
+      width: 103
+      height: 116

@@ -1,0 +1,180 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.steps.field_steps
+    - field.field.paragraph.steps.field_steps_link
+    - field.field.paragraph.steps.field_steps_title
+    - paragraphs.paragraphs_type.steps
+  module:
+    - ds
+    - entity_reference_revisions
+    - layout_builder
+    - link
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              steps: steps
+            ds_content:
+              steps: steps
+        components:
+          e4e508b8-d04e-4119-8d4c-0cbbc261c138:
+            uuid: e4e508b8-d04e-4119-8d4c-0cbbc261c138
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:steps:field_steps_title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: steps-title
+                  style: ''
+                  data: ''
+            weight: 0
+          6397884a-4fff-46c6-b853-8db9d24f1bb2:
+            uuid: 6397884a-4fff-46c6-b853-8db9d24f1bb2
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:steps:field_steps'
+              label: Steps
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: steps-wrapper
+                  style: ''
+                  data: ''
+            weight: 1
+          2510cdc4-68df-49a8-97c5-abfe1919a658:
+            uuid: 2510cdc4-68df-49a8-97c5-abfe1919a658
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:steps:field_steps_link'
+              label: Link
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: link
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: '0'
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: 'steps-button button button-border-green'
+                  style: ''
+                  data: ''
+            weight: 2
+        third_party_settings: {  }
+id: paragraph.steps.default
+targetEntityType: paragraph
+bundle: steps
+mode: default
+content:
+  field_steps:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_steps_link:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_steps_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

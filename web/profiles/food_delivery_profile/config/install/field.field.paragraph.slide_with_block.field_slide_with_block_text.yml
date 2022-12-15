@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slide_with_block_text
+    - paragraphs.paragraphs_type.slide_with_block
+  module:
+    - text
+id: paragraph.slide_with_block.field_slide_with_block_text
+field_name: field_slide_with_block_text
+entity_type: paragraph
+bundle: slide_with_block
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

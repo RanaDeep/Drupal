@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ece426c8-7a40-4aef-8a93-346fbbfde090
+  bundle: image
+  default_langcode: en
+  depends:
+    c5319506-d069-4a13-953d-5f9d6bd9aa6c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'brain smith.png'
+  created:
+    -
+      value: 1594892722
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: c5319506-d069-4a13-953d-5f9d6bd9aa6c
+      alt: 'Brian Smith'
+      title: ''
+      width: 170
+      height: 94

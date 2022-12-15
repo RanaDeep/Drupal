@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: info_block
+label: 'Info Block'
+icon_uuid: null
+icon_default: null
+description: 'Information block contains info about working hours, address, contact phone etc.'
+behavior_plugins: {  }

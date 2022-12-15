@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the ADCI Contact Info module.
+ */
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook_install().
+ */
+function adci_contact_info_install() {
+  $config = \Drupal::configFactory();
+  $theme_name = $config
+    ->get('system.theme')
+    ->get('admin');
+  $values = [
+    'id' => 'adci_contact_info_block',
+    'language' => 'en',
+    'theme' => $theme_name,
+    'region' => 'header',
+    'weight' => -9999,
+    'visibility' => [],
+    'plugin' => 'adci_contact_info_block',
+    'settings' => [
+      'id' => 'adci_contact_info_block',
+      'label' => t('ADCI Solutions contact information'),
+      'label_display' => 0,
+    ],
+  ];
+  $block = Block::create($values);
+  $block
+    ->save();
+}

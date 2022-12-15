@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.price
+  module:
+    - facets
+  theme:
+    - bartik
+id: price
+theme: bartik
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'facet_block:price'
+settings:
+  id: 'facet_block:price'
+  label: Price
+  provider: facets
+  label_display: visible
+  block_id: price
+visibility: {  }

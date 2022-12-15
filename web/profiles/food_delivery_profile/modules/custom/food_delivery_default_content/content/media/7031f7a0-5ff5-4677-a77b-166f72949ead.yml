@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7031f7a0-5ff5-4677-a77b-166f72949ead
+  bundle: image
+  default_langcode: en
+  depends:
+    1c980daa-daca-4c72-92de-c822157024d3: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: clock_3.png
+  created:
+    -
+      value: 1600232243
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 1c980daa-daca-4c72-92de-c822157024d3
+      alt: Clock
+      title: ''
+      width: 73
+      height: 73

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 01dc7adf-e835-4bef-bdd9-75c3e0f80332
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: phone.png
+  uri:
+    -
+      value: 'public://inline-images/phone_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1396
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1595483851
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

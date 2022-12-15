@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1ed15c48-bd21-4b1d-b69b-f18b3e614589
+  bundle: image
+  default_langcode: en
+  depends:
+    bb967e15-7fa9-4f7e-80d0-feb5addb10fe: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: barrels.png
+  created:
+    -
+      value: 1594892746
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: bb967e15-7fa9-4f7e-80d0-feb5addb10fe
+      alt: Barrels
+      title: ''
+      width: 131
+      height: 142

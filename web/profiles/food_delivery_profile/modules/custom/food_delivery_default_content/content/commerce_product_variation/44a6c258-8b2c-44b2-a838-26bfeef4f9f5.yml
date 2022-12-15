@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 44a6c258-8b2c-44b2-a838-26bfeef4f9f5
+  bundle: product
+  default_langcode: en
+  depends:
+    8d4ed905-5223-44a8-a914-15cb753e494c: commerce_product
+    63464313-e4eb-48b3-ae04-a8581808e23c: taxonomy_term
+    e4317e90-d987-4a78-86b1-79e8fd2c99f5: media
+    59edc1f7-ef06-4a3c-95f6-ea2c6e8474ab: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 8d4ed905-5223-44a8-a914-15cb753e494c
+  sku:
+    -
+      value: '1480319529'
+  title:
+    -
+      value: 'Apricot, Chine'
+  price:
+    -
+      number: '43.000000'
+      currency_code: USD
+      formatted: $43.00
+  created:
+    -
+      value: 1593164385
+  field_product_category:
+    -
+      entity: 63464313-e4eb-48b3-ae04-a8581808e23c
+  field_product_featured:
+    -
+      value: false
+  field_product_image:
+    -
+      entity: e4317e90-d987-4a78-86b1-79e8fd2c99f5
+  field_product_new:
+    -
+      value: false
+  field_product_on_sale:
+    -
+      value: false
+  field_product_tag:
+    -
+      entity: 59edc1f7-ef06-4a3c-95f6-ea2c6e8474ab
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

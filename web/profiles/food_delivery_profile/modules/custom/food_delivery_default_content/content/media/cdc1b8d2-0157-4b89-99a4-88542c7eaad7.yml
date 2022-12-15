@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: cdc1b8d2-0157-4b89-99a4-88542c7eaad7
+  bundle: image
+  default_langcode: en
+  depends:
+    37e2c247-3817-4bfc-bc2d-150f76229b42: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Broccoli.jpg
+  created:
+    -
+      value: 1594637119
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 37e2c247-3817-4bfc-bc2d-150f76229b42
+      alt: Broccoli
+      title: ''
+      width: 400
+      height: 480

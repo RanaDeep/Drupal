@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: slick_frontpage_
+label: 'Slick frontpage image (1170x640)'
+effects:
+  289a2258-0ace-4c69-8e15-c7c97aae9cb5:
+    uuid: 289a2258-0ace-4c69-8e15-c7c97aae9cb5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1170
+      height: 640
+      anchor: center-center

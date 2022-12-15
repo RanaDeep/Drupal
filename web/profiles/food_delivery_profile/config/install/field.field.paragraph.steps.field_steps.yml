@@ -1,0 +1,63 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_steps
+    - paragraphs.paragraphs_type.step
+    - paragraphs.paragraphs_type.steps
+  module:
+    - entity_reference_revisions
+id: paragraph.steps.field_steps
+field_name: field_steps
+entity_type: paragraph
+bundle: steps
+label: Steps
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      step: step
+    target_bundles_drag_drop:
+      body:
+        weight: 13
+        enabled: false
+      contact:
+        weight: 14
+        enabled: false
+      faq:
+        weight: 15
+        enabled: false
+      faq_list:
+        weight: 16
+        enabled: false
+      info_block:
+        weight: 17
+        enabled: false
+      info_blocks:
+        weight: 18
+        enabled: false
+      slide_content_center_item:
+        weight: 19
+        enabled: false
+      slide_with_block:
+        weight: 20
+        enabled: false
+      step:
+        enabled: true
+        weight: 21
+      steps:
+        weight: 22
+        enabled: false
+      team:
+        weight: 23
+        enabled: false
+      worker:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

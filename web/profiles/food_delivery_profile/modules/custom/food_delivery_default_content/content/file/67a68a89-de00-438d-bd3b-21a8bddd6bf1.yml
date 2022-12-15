@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 67a68a89-de00-438d-bd3b-21a8bddd6bf1
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: list.png
+  uri:
+    -
+      value: 'public://inline-images/list_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1478
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594884041
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

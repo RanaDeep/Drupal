@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: product
+label: Product
+orderItemType: default
+generateTitle: false
+traits:
+  - purchasable_entity_shippable
+locked: false

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b618a030-3f4e-4277-8927-2d4677a9f3a1
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: no-thumbnail.png
+  uri:
+    -
+      value: 'public://media-icons/generic/no-thumbnail_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 7318
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600333625
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

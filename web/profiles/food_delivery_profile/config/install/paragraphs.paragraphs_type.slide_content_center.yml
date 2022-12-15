@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slide_content_center
+label: 'Slide Content Center'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

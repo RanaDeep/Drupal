@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6f7c6b12-ad2d-4664-b671-15960ea4e30e
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Banana_7.jpg
+  uri:
+    -
+      value: 'public://2020-06/Banana_7_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 36342
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592913757
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

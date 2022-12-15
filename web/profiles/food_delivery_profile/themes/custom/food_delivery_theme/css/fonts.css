@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andrea';
+  src: url("../fonts/Andrea-Normal.otf"), url("../fonts/Andrea-Normal.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A Garamond Pro";
+  src: url("../fonts/Adobe Garamond Pro Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "A Garamond Pro";
+  src: url("../fonts/Adobe Garamond Pro Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: local("Gilroy"), url("../fonts/Gilroy-light/Gilroy-Light.otf") format("opentype"), url("../fonts/Gilroy-light/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-light/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: local("Gilroy"), url("../fonts/Gilroy-bold/Gilroy-ExtraBold.otf") format("opentype"), url("../fonts/Gilroy-bold/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-bold/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: ba2ea2fd-b2c0-42f5-a4ea-98389ac721d3
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    875e9a5c-44ff-438a-b19c-eab6a5af7bdc: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: Beets
+  variations:
+    -
+      entity: 875e9a5c-44ff-438a-b19c-eab6a5af7bdc
+  path:
+    -
+      alias: /beets
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1593164851

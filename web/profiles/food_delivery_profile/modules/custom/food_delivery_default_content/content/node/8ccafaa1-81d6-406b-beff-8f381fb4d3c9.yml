@@ -1,0 +1,516 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8ccafaa1-81d6-406b-beff-8f381fb4d3c9
+  bundle: page
+  default_langcode: en
+  depends:
+    884f75f9-d3ac-42c5-851f-7e114c96c9b7: media
+    fe9d4c31-3f4a-48b9-9061-65eb92943ab4: media
+    8966d208-a46d-4c8f-8144-6dc757fd724f: media
+    81bd0d2d-55ec-45ec-9c06-ff0691376e23: media
+    7031f7a0-5ff5-4677-a77b-166f72949ead: media
+    c40dec72-2b7c-47ef-991e-bcea067ea5a1: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'How it works'
+  created:
+    -
+      value: 1600231106
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /how-it-works
+      langcode: en
+      pathauto: 0
+  field_page_banner:
+    -
+      entity: 884f75f9-d3ac-42c5-851f-7e114c96c9b7
+  field_page_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d5851499-790c-4c2a-8cf9-4f845fffdca0
+          bundle: steps
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600231927
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_steps:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 217cb14b-4635-4197-bdd1-6d6e35cc412f
+                  bundle: step
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600231927
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_step_icon:
+                    -
+                      entity: fe9d4c31-3f4a-48b9-9061-65eb92943ab4
+                  field_step_text:
+                    -
+                      value: "Check the catalogue and\r\nchoose the products you need"
+                  field_step_title:
+                    -
+                      value: 'Step 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 12822f50-fc1f-4207-95d4-9ced199afd2a
+                  bundle: step
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600232156
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_step_icon:
+                    -
+                      entity: 8966d208-a46d-4c8f-8144-6dc757fd724f
+                  field_step_text:
+                    -
+                      value: "Place the order and let us\r\nknow your delivery address"
+                  field_step_title:
+                    -
+                      value: 'Step 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c2a55526-4a46-457e-a04b-ca5aa49b2ad2
+                  bundle: step
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600232192
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_step_icon:
+                    -
+                      entity: 81bd0d2d-55ec-45ec-9c06-ff0691376e23
+                  field_step_text:
+                    -
+                      value: "Give our manager the details\r\nin the phone call"
+                  field_step_title:
+                    -
+                      value: 'Step 3'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 8e15f7c1-b356-472b-adcc-1d98580b333e
+                  bundle: step
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600232232
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_step_icon:
+                    -
+                      entity: 7031f7a0-5ff5-4677-a77b-166f72949ead
+                  field_step_text:
+                    -
+                      value: 'Get your order in 40 minutes'
+                  field_step_title:
+                    -
+                      value: 'Step 4'
+          field_steps_link:
+            -
+              uri: 'internal:/catalog'
+              title: 'Go to the catalog'
+              options: {  }
+          field_steps_title:
+            -
+              value: 'Feeling uncomfortable buying stuff on the Internet? Let’s see how easy and safe it actually is.'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4c9cbe06-a127-460a-b402-82558e5dc596
+          bundle: contact
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600232337
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_contact_image:
+            -
+              entity: c40dec72-2b7c-47ef-991e-bcea067ea5a1
+          field_contact_link:
+            -
+              uri: 'internal:/contact'
+              title: 'Contact us'
+              options: {  }
+          field_contact_title:
+            -
+              value: 'Still Have a questions?'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 18f914a4-d43e-4f12-8a0b-afa7e31e2648
+          bundle: faq_list
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600232449
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_faq_list:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: afb86fff-7f3f-4c37-abb5-d9457d99a458
+                  bundle: faq
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600232449
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_faq_answer:
+                    -
+                      value: 'Pellentesque mollis arcu purus, quis cursus odio fermentum vel. Quisque euismod metus auctor, suscipit urna non, consectetur nulla. Etiam vitae tempus orci, nec finibus justo. Curabitur id cursus eros, faucibus sagittis magna. Vivamus in semper erat. Nullam ornare, sem congue bibendum efficitur, augue quam congue urna, at porta est dui id ligula. Nam ac sapien ultricies, sodales mi non, laoreet odio.'
+                  field_faq_question:
+                    -
+                      value: ' Transport and Deliveries'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f8a7f9d2-7ceb-4915-b348-07e3f29f6eea
+                  bundle: faq
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600232495
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_faq_answer:
+                    -
+                      value: "Shopping at Fooddelivery.com is very simple. Just follow these steps:\r\n1. Choose the section: woman, man, boys & girls, shoes & accessories. You can buy by article type or by collection. \r\n2. Click on the article that interests you and you will see its different views, as well as its name, reference number, description, price, colour, sizes available, composition and care instructions. You will also find related articles on the right side of the page. \r\n3. Select a size and add the article to the basket. Next, you can choose between \"Continue shopping\" or \"Process order\". \r\n4. Please remember that you have two options for placing your order: you can register as a user or place your order as a guest. \r\nRemember that purchases made at Fooddelivery.com are completely safe as we put great amount of effort into guaranteeing your safety and personal details."
+                  field_faq_question:
+                    -
+                      value: ' How to buy?'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 427cbd9c-0051-4178-9ed0-ce7aaa951dd2
+                  bundle: faq
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600232510
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_faq_answer:
+                    -
+                      value: "Vivamus porttitor pulvinar lectus, et mattis urna ullamcorper quis. Sed ullamcorper, enim vitae volutpat consectetur, velit risus pharetra ante, sed sollicitudin nulla lorem quis ex. Aliquam egestas ac lacus at lobortis. In hac habitasse platea dictumst. In interdum volutpat est, nec aliquam turpis vestibulum nec. Aenean sed velit id libero facilisis pellentesque nec vel mi. Morbi lorem nisi, bibendum id diam nec, convallis sagittis libero. Aliquam eget tristique risus, a convallis massa. Fusce bibendum sit amet quam at interdum. Vivamus faucibus ut magna vel facilisis. In hac habitasse platea dictumst. Sed dapibus efficitur nunc eget consectetur. Quisque accumsan non mauris sit amet mollis.\r\nPellentesque mollis arcu purus, quis cursus odio fermentum vel. Quisque euismod metus auctor, suscipit urna non, consectetur nulla. Etiam vitae tempus orci, nec finibus justo. Curabitur id cursus eros, faucibus sagittis magna. Vivamus in semper erat. Nullam ornare, sem congue bibendum efficitur, augue quam congue urna, at porta est dui id ligula. Nam ac sapien ultricies, sodales mi non, laoreet odio."
+                  field_faq_question:
+                    -
+                      value: ' Payments'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f212e15a-8c54-4c77-9ac1-0b8d5bd83e46
+                  bundle: faq
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600232543
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_faq_answer:
+                    -
+                      value: 'Sed facilisis lacinia lorem, eget finibus enim imperdiet id. Mauris ut risus ante. Donec turpis erat, tincidunt eget eleifend vel, aliquam blandit lorem. Donec rutrum ligula nec nisl fringilla malesuada. Donec vel lorem in elit iaculis rutrum vel non turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis pulvinar, erat vel cursus gravida, urna nisi iaculis elit, ut viverra dui tortor a ligula. Duis vestibulum vitae dui vitae auctor. Suspendisse pretium tristique justo non rutrum. Suspendisse tempus nisl mi, quis faucibus mauris consequat vitae. Donec tincidunt, elit ut congue tincidunt, massa odio tincidunt diam, eu bibendum ligula justo id velit. Nunc eu convallis ligula. Aenean vel cursus leo, ac tincidunt sem.'
+                  field_faq_question:
+                    -
+                      value: Policy
+          field_faq_list_title:
+            -
+              value: 'Frequently asked questions'
+  layout_builder__layout:
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              banner: banner
+            ds_content:
+              banner: banner
+        components:
+          204b5a77-5c28-4359-8595-0332391313f3:
+            uuid: 204b5a77-5c28-4359-8595-0332391313f3
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-title
+                  style: ''
+                  data: ''
+            weight: 0
+          1d192e28-9db2-4577-996b-1dd1ef7cc2e6:
+            uuid: 1d192e28-9db2-4577-996b-1dd1ef7cc2e6
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_banner'
+              label: Banner
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-image
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content:
+              breadcrumbs: breadcrumbs
+        components:
+          832b7c45-d7b8-47ab-83c5-9f2ae74084bf:
+            uuid: 832b7c45-d7b8-47ab-83c5-9f2ae74084bf
+            region: ds_content
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              columns: columns
+            ds_content:
+              columns: columns
+        components:
+          b4214107-60f5-48d2-8409-2bd2e109a2fa:
+            uuid: b4214107-60f5-48d2-8409-2bd2e109a2fa
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_paragraphs'
+              label: Paragraphs
+              provider: layout_builder
+              label_display: 0
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }

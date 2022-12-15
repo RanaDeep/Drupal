@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c980daa-daca-4c72-92de-c822157024d3
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: clock_3.png
+  uri:
+    -
+      value: 'public://2020-09/clock_3_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1767
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600257191
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

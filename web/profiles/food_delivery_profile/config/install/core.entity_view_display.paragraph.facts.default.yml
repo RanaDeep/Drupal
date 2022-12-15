@@ -1,0 +1,127 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.facts.field_facts
+    - field.field.paragraph.facts.field_facts_title
+    - paragraphs.paragraphs_type.facts
+  module:
+    - ds
+    - entity_reference_revisions
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              facts: facts
+            ds_content:
+              facts: facts
+        components:
+          e73406d7-49d4-4d56-af7e-d2441487aa89:
+            uuid: e73406d7-49d4-4d56-af7e-d2441487aa89
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:facts:field_facts_title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: facts-title
+                  style: ''
+                  data: ''
+            weight: 0
+          703e1276-8417-4c76-9524-aa0f61974a41:
+            uuid: 703e1276-8417-4c76-9524-aa0f61974a41
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:facts:field_facts'
+              label: Facts
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: facts-wrapper
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+id: paragraph.facts.default
+targetEntityType: paragraph
+bundle: facts
+mode: default
+content:
+  field_facts:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_facts_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

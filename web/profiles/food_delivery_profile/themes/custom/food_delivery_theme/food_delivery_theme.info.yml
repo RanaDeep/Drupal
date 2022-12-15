@@ -1,0 +1,34 @@
+name: Food Delivery
+type: theme
+base theme: bartik
+description: 'Food delivery theme'
+# version: 1.x
+core: 8.x
+core_version_requirement: ^8 || ^9
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
+  - core/modules/system/css/system.module.css
+  - core/modules/system/css/system.theme.css
+  - core/modules/views/css/views.module.css
+  - core/themes/stable/css/system/components/clearfix.module.css
+  - modules/contrib/commerce/modules/checkout/css/commerce_checkout.form.css
+  - modules/contrib/commerce/modules/checkout/css/commerce_checkout.layout.css
+libraries:
+  - food_delivery_theme/global
+logo: logo.png
+regions:
+  header: 'Header'
+  menu: 'Menu'
+  menu_copyright: 'Menu Copyright'
+  content: 'Content'
+  subscribe: 'Subscribe'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+
+# Information added by Drupal.org packaging script on 2021-01-11
+version: '8.x-1.x-dev'
+project: 'food_delivery_profile'
+datestamp: 1610356091

@@ -1,0 +1,12 @@
+uuid: 9fc39fbd-0912-4f03-b5a9-5b1fc6d504d3
+name: ''
+mail: ''
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

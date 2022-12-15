@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9a7e4de9-1480-4b4a-94d7-43b0dbca62e0
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: about-photo-2.jpg
+  uri:
+    -
+      value: 'public://inline-images/about-photo-2_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 290098
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594887060
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

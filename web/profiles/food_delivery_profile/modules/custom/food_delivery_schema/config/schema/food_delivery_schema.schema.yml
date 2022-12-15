@@ -1,0 +1,417 @@
+layout_plugin.settings:
+  type: mapping
+  label: 'Layout settings'
+  mapping:
+    label:
+      type: label
+    wrappers:
+      type: mapping
+      mapping:
+        ds_content:
+          type: string
+        left:
+          type: string
+        right:
+          type: string
+    outer_wrapper:
+      type: string
+    attributes:
+      type: string
+    link_attribute:
+      type: string
+    link_custom:
+      type: string
+    classes:
+      type: mapping
+      mapping:
+        layout_class:
+          type: sequence
+          sequence:
+            type: layout_class.[%key]
+        ds_content:
+          type: sequence
+          sequence:
+            type: ds_content.[%key]
+        left:
+          type: sequence
+          sequence:
+            type: left.[%key]
+        right:
+          type: sequence
+          sequence:
+            type: right.[%key]
+
+field_config_base:
+  type: config_entity
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    field_name:
+      type: string
+      label: 'Field name'
+    entity_type:
+      type: string
+      label: 'Entity type'
+    bundle:
+      type: string
+      label: 'Bundle'
+    label:
+      type: label
+      label: 'Label'
+    description:
+      type: text
+      label: 'Help text'
+    required:
+      type: boolean
+      label: 'Required field'
+    translatable:
+      type: boolean
+      label: 'Translatable'
+    default_value:
+      type: sequence
+      label: 'Default values'
+      sequence:
+        type: mapping
+        mapping:
+          argument:
+            type: string
+          close:
+            type: string
+          data:
+            type: string
+          default_data:
+            type: string
+          display_id:
+            type: string
+          open:
+            type: string
+          options:
+            type: mapping
+            mapping:
+              title:
+                type: integer
+              argument:
+                type: string
+          status:
+            type: string
+          target_uuid:
+            type: uuid
+          title:
+            type: integer
+          value:
+            type: integer
+    default_value_callback:
+      type: string
+      label: 'Default value callback'
+    settings:
+      type: mapping
+      mapping:
+        allow_unverified:
+          type: boolean
+        alt_field:
+          type: boolean
+        alt_field_required:
+          type: boolean
+        available_countries:
+          type: sequence
+        available_currencies:
+          type: sequence
+          sequence:
+            type: string
+        countries:
+          type: sequence
+        default_image:
+          type: mapping
+          mapping:
+            alt:
+              type: string
+            height:
+              type: string
+            title:
+              type: string
+            uuid:
+              type: uuid
+            width:
+              type: string
+        description_field:
+          type: boolean
+        display_summary:
+          type: boolean
+        fields:
+          type: sequence
+          sequence:
+            type: string
+        field_overrides:
+          type: sequence
+        file_extensions:
+          type: string
+        file_directory:
+          type: string
+        handler:
+          type: string
+        handler_settings:
+          type: mapping
+          mapping:
+            auto_create:
+              type: ignore
+            auto_create_bundle:
+              type: string
+            negate:
+              type: integer
+            slide_content_center_item:
+              type: string
+            sort:
+              type: mapping
+              mapping:
+                field:
+                  type: string
+                direction:
+                  type: string
+            target_bundles:
+              type: ignore
+            target_bundles_drag_drop:
+              type: sequence
+              sequence:
+                type: mapping
+                mapping:
+                  weight:
+                    type: integer
+                  enabled:
+                    type: boolean
+        langcode_override:
+          type: string
+        link_type:
+          type: integer
+        max_filesize:
+          type: string
+        max_resolution:
+          type: string
+        min_resolution:
+          type: string
+        off_label:
+          type: string
+        on_label:
+          type: string
+        plugin_types:
+          type: mapping
+          mapping:
+            block:
+              type: string
+            default:
+              type: integer
+            embed:
+              type: integer
+            feed:
+              type: integer
+            page:
+              type: integer
+        preselect_views:
+          type: sequence
+          sequence:
+            type: preselect_views.[%key]
+        required_summary:
+          type: boolean
+        title:
+          type: integer
+        title_field:
+          type: boolean
+        title_field_required:
+          type: boolean
+        verify:
+          type: boolean
+    field_type:
+      type: string
+      label: 'Field type'
+
+field.storage_settings.*:
+  type: mapping
+  label: 'Settings'
+  mapping:
+    target_type:
+      type: string
+
+commerce_checkout.commerce_checkout_flow.plugin.*:
+  type: mapping
+  mapping:
+    display_checkout_progress:
+      type: boolean
+      label: 'Display checkout progress'
+    panes:
+      type: sequence
+      sequence:
+        type: sequence
+        sequence:
+          type: pane.[%key]
+
+field.widget.settings.*:
+  type: mapping
+  mapping:
+    match_operator:
+      type: string
+    match_limit:
+      type: integer
+    size:
+      type: integer
+    placeholder:
+      type: string
+
+field.formatter.settings.file_audio:
+  type: mapping
+  label: 'File audio display format settings'
+  mapping:
+    controls:
+      type: boolean
+      label: 'Show audio controls'
+    autoplay:
+      type: boolean
+      label: 'Autoplay'
+    loop:
+      type: boolean
+      label: 'Loop'
+    multiple_file_behavior:
+      type: string
+      label: 'Display of multiple files'
+    multiple_file_display_type:
+      type: string
+
+field.formatter.settings.file_video:
+  type: mapping
+  label: 'File video display format settings'
+  mapping:
+    controls:
+      type: boolean
+      label: 'Show audio controls'
+    autoplay:
+      type: boolean
+      label: 'Autoplay'
+    loop:
+      type: boolean
+      label: 'Loop'
+    muted:
+      type: boolean
+      label: 'Muted'
+    width:
+      type: integer
+      label: 'Width'
+    height:
+      type: integer
+      label: 'Height'
+    multiple_file_behavior:
+      type: string
+      label: 'Display of multiple files'
+    multiple_file_display_type:
+      type: string
+
+field.formatter.settings.*:
+  type: mapping
+  mapping:
+    plugin_types:
+      type: sequence
+      sequence:
+        type: plugin_type.[%key]
+
+views.query.query:
+  type: views_query
+  label: 'Views query'
+  mapping:
+    query_comment:
+      type: string
+      label: 'Query comment'
+    disable_sql_rewrite:
+      type: boolean
+      label: 'Disable SQL rewriting'
+    distinct:
+      type: boolean
+      label: 'Distinct'
+    replica:
+      type: boolean
+      label: 'Use Replica Server'
+    query_tags:
+      type: sequence
+      label: 'Query Tags'
+      sequence:
+        type: string
+        label: 'Tag'
+
+views.field.fieldset:
+  type: views_field
+  label: 'Taxonomy language'
+  mapping:
+    fields:
+      type: sequence
+      sequence:
+        type: string
+    wrapper:
+      type: string
+    legend:
+      type: string
+    classes:
+      type: string
+    collapsible:
+      type: integer
+    collapsed:
+      type: integer
+
+plugin_type.*:
+  type: string
+
+plugin_type.default:
+  type: integer
+
+plugin_type.embed:
+  type: integer
+
+plugin_type.feed:
+  type: integer
+
+plugin_type.page:
+  type: integer
+
+pane.*:
+  type: sequence
+
+pane.allow_guest_checkout:
+  type: boolean
+
+pane.allow_multiple:
+  type: boolean
+
+pane.allow_registration:
+  type: boolean
+
+pane.double_entry:
+  type: boolean
+
+pane.capture:
+  type: boolean
+
+pane.require_shipping_profile:
+  type: boolean
+
+pane.step:
+  type: string
+
+pane.view:
+  type: string
+
+pane.weight:
+  type: string
+
+layout_class.*:
+  type: string
+
+ds_content.*:
+  type: string
+
+left.*:
+  type: string
+
+right.*:
+  type: string
+
+preselect_views.*:
+  type: integer
+
+preselect_views.product_of_the_day:
+  type: string

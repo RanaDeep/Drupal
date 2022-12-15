@@ -1,0 +1,30 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:459b1735-442d-4595-8643-2b01f9c5b579'
+  module:
+    - block_content
+    - system
+  theme:
+    - food_delivery_theme
+id: food_delivery_theme_block_mobile_banner
+theme: food_delivery_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:459b1735-442d-4595-8643-2b01f9c5b579'
+settings:
+  id: 'block_content:459b1735-442d-4595-8643-2b01f9c5b579'
+  label: 'Block mobile banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

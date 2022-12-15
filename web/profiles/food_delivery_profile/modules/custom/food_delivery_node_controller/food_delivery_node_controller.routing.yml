@@ -1,0 +1,14 @@
+food_delivery_node_controller.tags_content:
+  path: '/catalog/tags/{tag}'
+  defaults:
+    _controller: '\Drupal\food_delivery_node_controller\Controller\CatalogTagsController::getContent'
+    _title: 'Catalog'
+  requirements:
+    _permission: 'access content'
+food_delivery_node_controller.categories_content:
+  path: '/catalog/{category}'
+  defaults:
+    _controller: '\Drupal\food_delivery_node_controller\Controller\CatalogCategoriesController::getContent'
+    _title: 'Catalog'
+  requirements:
+    _permission: 'access content'

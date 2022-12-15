@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c129b86f-2642-4b80-88fb-c27e61963917
+  bundle: image
+  default_langcode: en
+  depends:
+    a184b9be-d74e-4118-87e6-1eadd3a05d3e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: mail.png
+  created:
+    -
+      value: 1600238750
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: a184b9be-d74e-4118-87e6-1eadd3a05d3e
+      alt: Mail
+      title: ''
+      width: 39
+      height: 28

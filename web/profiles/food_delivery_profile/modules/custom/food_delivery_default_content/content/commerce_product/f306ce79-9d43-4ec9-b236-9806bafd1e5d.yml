@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: f306ce79-9d43-4ec9-b236-9806bafd1e5d
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    7010d18e-f915-41a3-a0dd-f94a1e62d13f: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: Artichoke
+  variations:
+    -
+      entity: 7010d18e-f915-41a3-a0dd-f94a1e62d13f
+  path:
+    -
+      alias: /artichoke
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1593164416

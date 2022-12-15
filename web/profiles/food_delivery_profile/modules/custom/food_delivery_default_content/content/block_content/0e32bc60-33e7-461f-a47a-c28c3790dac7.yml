@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 0e32bc60-33e7-461f-a47a-c28c3790dac7
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Footer first column block'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<div class=\"company-description\">\r\n<p>Place your company description here: a history, your main clients and whatever you think is appropriate.</p>\r\n</div>\r\n\r\n<div class=\"social-network-images\">\r\n<div class=\"icon twitter-icon\"><a href=\"#\">&nbsp;</a></div>\r\n\r\n<div class=\"icon facebook-icon\"><a href=\"#\">&nbsp;</a></div>\r\n\r\n<div class=\"icon instagram-icon\"><a href=\"#\">&nbsp;</a></div>\r\n\r\n<div class=\"icon pinterest-icon\"><a href=\"#\">&nbsp;</a></div>\r\n\r\n<div class=\"icon google-plus-icon\"><a href=\"#\">&nbsp;</a></div>\r\n</div>\r\n\r\n<div class=\"copyright-info\">\r\n<p>Copyright © 2021 Company name.</p>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

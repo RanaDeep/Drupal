@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d903213b-d65c-449a-b167-03edb5530829
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: letter.png
+  uri:
+    -
+      value: 'public://inline-images/letter_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 5292
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594884958
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

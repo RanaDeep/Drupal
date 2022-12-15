@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4d4b75f7-564e-4701-894b-95ea15fd027b
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'joe steven.png'
+  uri:
+    -
+      value: 'public://2020-07/joe steven_1_0_0_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 14543
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892621
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

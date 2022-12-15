@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: f067c6f2-d66e-400b-b1f5-ec70a7ab2256
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    10c4ee4d-a493-409e-8420-d603c0f0ddaa: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: 'Bell Peper, Australia'
+  variations:
+    -
+      entity: 10c4ee4d-a493-409e-8420-d603c0f0ddaa
+  path:
+    -
+      alias: /bell-peper-australia
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1593164898

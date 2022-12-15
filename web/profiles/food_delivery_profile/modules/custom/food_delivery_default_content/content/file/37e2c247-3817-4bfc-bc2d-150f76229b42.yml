@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 37e2c247-3817-4bfc-bc2d-150f76229b42
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Broccoli.jpg
+  uri:
+    -
+      value: 'public://2020-07/Broccoli_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 57941
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594637124
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

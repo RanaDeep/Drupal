@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.popular_tags
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__popular_tags_block_1
+theme: bartik
+region: sidebar_first
+weight: -11
+provider: null
+plugin: 'views_block:popular_tags-block_1'
+settings:
+  id: 'views_block:popular_tags-block_1'
+  label: 'Popular tags'
+  provider: views
+  label_display: visible
+  views_label: 'Popular tags'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/catalog\r\n/catalog/*\r\n/new\r\n/featured\r\n/sale"
+    negate: false
+    context_mapping: {  }

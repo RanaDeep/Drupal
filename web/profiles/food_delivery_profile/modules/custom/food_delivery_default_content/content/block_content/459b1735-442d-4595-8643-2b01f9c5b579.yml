@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 459b1735-442d-4595-8643-2b01f9c5b579
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Block mobile banner'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<div class=\"mobile-slide\"><img alt=\"Rectangle\" data-entity-type=\"file\" data-entity-uuid=\"adcd0772-377d-41ce-ad4b-ea35d7aea164\" src=\"/sites/default/files/inline-images/rectangle-3.jpg\" />\r\n<div class=\"mobile-slide__wrapper\"><span class=\"title\">WE CREATED<br />\r\nPERFECT CONDITIONS<br />\r\nFOR FAST<br />\r\nSHOPPING.</span>\r\n<div class=\"button_back_to_shopping\">\r\n<form action=\"/catalog\"><button class=\"button button-fill-green\" type=\"submit\">Go to the catalog</button></form>\r\n</div>\r\n</div>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

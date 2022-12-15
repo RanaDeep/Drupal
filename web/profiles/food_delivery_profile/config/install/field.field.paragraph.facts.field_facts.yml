@@ -1,0 +1,69 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_facts
+    - paragraphs.paragraphs_type.fact
+    - paragraphs.paragraphs_type.facts
+  module:
+    - entity_reference_revisions
+id: paragraph.facts.field_facts
+field_name: field_facts
+entity_type: paragraph
+bundle: facts
+label: Facts
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      fact: fact
+    target_bundles_drag_drop:
+      body:
+        weight: 15
+        enabled: false
+      contact:
+        weight: 16
+        enabled: false
+      fact:
+        enabled: true
+        weight: 17
+      facts:
+        weight: 18
+        enabled: false
+      faq:
+        weight: 19
+        enabled: false
+      faq_list:
+        weight: 20
+        enabled: false
+      info_block:
+        weight: 21
+        enabled: false
+      info_blocks:
+        weight: 22
+        enabled: false
+      slide_content_center_item:
+        weight: 23
+        enabled: false
+      slide_with_block:
+        weight: 24
+        enabled: false
+      step:
+        weight: 25
+        enabled: false
+      steps:
+        weight: 26
+        enabled: false
+      team:
+        weight: 27
+        enabled: false
+      worker:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

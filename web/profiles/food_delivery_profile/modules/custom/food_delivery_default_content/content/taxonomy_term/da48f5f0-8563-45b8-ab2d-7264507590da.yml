@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: da48f5f0-8563-45b8-ab2d-7264507590da
+  bundle: categories
+  default_langcode: en
+  depends:
+    41b6a69d-159b-4cf2-aca2-5cac32539b1b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: tubers
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 41b6a69d-159b-4cf2-aca2-5cac32539b1b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /tubers
+      langcode: en
+      pathauto: 1

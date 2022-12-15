@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.fact.field_fact_icon
+    - field.field.paragraph.fact.field_fact_text
+    - paragraphs.paragraphs_type.fact
+  module:
+    - media_library
+id: paragraph.fact.default
+targetEntityType: paragraph
+bundle: fact
+mode: default
+content:
+  field_fact_icon:
+    type: media_library_widget
+    weight: 0
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_fact_text:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

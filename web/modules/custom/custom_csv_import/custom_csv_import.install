@@ -1,0 +1,31 @@
+<?php
+
+use Drupal\Core\Database\Database;
+
+/**
+* Implemetation of hook_schema()
+*/
+function custom_csv_import_schema() {
+  $schema=array();
+  $schema['csv_data'] = array(
+   'description' => 'CSV data table',
+	'fields' => array(
+      'full_name' => array(
+        'description' => 'Full name data',
+        'type' => 'text',
+        'length' => 100,
+        'not null' => TRUE,
+      ),
+    ),
+  );
+  return $schema;
+}
+
+/**
+* Implemetation of hook_uninstall()
+*/
+function custom_csv_import_uninstall() {
+    $table = 'csv_data';
+    $schema = Database::getConnection()->schema();
+    $schema->dropTable($table);
+}

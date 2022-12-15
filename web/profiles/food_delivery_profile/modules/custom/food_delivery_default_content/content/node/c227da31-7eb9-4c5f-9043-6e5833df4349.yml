@@ -1,0 +1,733 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c227da31-7eb9-4c5f-9043-6e5833df4349
+  bundle: page
+  default_langcode: en
+  depends:
+    6149d467-0ce7-459a-a49c-f5bb93fa43cc: media
+    71cba67e-c199-4644-9e46-0463ed8e30ff: media
+    4f893df9-b10d-4e28-bd95-4274d4489071: media
+    2086fe12-93b7-4d59-96f7-ce938b2d8647: media
+    a2743d9c-1881-4c35-a287-1278a12df0cc: media
+    d52f757f-7488-4391-b9b2-ef984301e272: media
+    65c21517-f33b-41cf-8634-5dc8b5673aa8: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1600657197
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /node
+      langcode: en
+      pathauto: 0
+  field_page_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d552fd02-f73c-4057-90b2-e15d2b3e3599
+          bundle: slider
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600668769
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_slides:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1bd123e8-8bc3-4df7-863f-87367429cc1c
+                  bundle: slide_with_block
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600668782
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_slide_with_block_block:
+                    -
+                      target_id: product_of_the_day
+                      display_id: block_1
+                      argument: 'Product of the day'
+                      title: '1'
+                      data: ''
+                  field_slide_with_block_image:
+                    -
+                      entity: 6149d467-0ce7-459a-a49c-f5bb93fa43cc
+                  field_slide_with_block_text:
+                    -
+                      value: "<p>*You will love our fresh fruits and vegetables store if you</p>\r\n\r\n<p>prefer to avoid noisy crowds. Just mark the products you<br />\r\nneed and pay online. It’s that easy: you will love it!</p>\r\n"
+                      format: basic_html
+                  field_slide_with_block_title:
+                    -
+                      value: "<p>Convenient shopping*<br />\r\nDon’t trust us – check<br />\r\nit yourself</p>\r\n"
+                      format: basic_html
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 0064c5ac-71b0-45f0-abd5-4f4792c0c04c
+                  bundle: slide_content_center
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600668773
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_slide_content_center_image:
+                    -
+                      entity: 71cba67e-c199-4644-9e46-0463ed8e30ff
+                  field_slide_content_center_items:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: abd4304a-59ad-41b3-b28f-56dd4a44d13e
+                          bundle: slide_content_center_item
+                          default_langcode: en
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1600669103
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          field_slide_content_centent_text:
+                            -
+                              value: "<p>In our store only fresh<br />\r\nproducts</p>\r\n"
+                              format: basic_html
+                          field_slide_content_center_icon:
+                            -
+                              entity: 4f893df9-b10d-4e28-bd95-4274d4489071
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 47d75697-cf56-4600-816f-92264189e1a4
+                          bundle: slide_content_center_item
+                          default_langcode: en
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1600668773
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          field_slide_content_centent_text:
+                            -
+                              value: "<p>Special for you beneficial<br />\r\noffers everyday</p>\r\n"
+                              format: basic_html
+                          field_slide_content_center_icon:
+                            -
+                              entity: 2086fe12-93b7-4d59-96f7-ce938b2d8647
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 2083ae8c-0033-4e8f-9865-a16128209b57
+                          bundle: slide_content_center_item
+                          default_langcode: en
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1600669161
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          field_slide_content_centent_text:
+                            -
+                              value: "<p>The fast and easy<br />\r\nshopping</p>\r\n"
+                              format: basic_html
+                          field_slide_content_center_icon:
+                            -
+                              entity: a2743d9c-1881-4c35-a287-1278a12df0cc
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: cb4289fa-6d8f-4c87-b7f8-37b2f02e79b1
+                          bundle: slide_content_center_item
+                          default_langcode: en
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1600669204
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          field_slide_content_centent_text:
+                            -
+                              value: "<p>Professional and<br />\r\nfriendly staff</p>\r\n"
+                              format: basic_html
+                          field_slide_content_center_icon:
+                            -
+                              entity: d52f757f-7488-4391-b9b2-ef984301e272
+                  field_slide_content_center_title:
+                    -
+                      value: "<p>We deliver your order within<br />\r\n40 minutes</p>\r\n"
+                      format: basic_html
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d5972750-7cf6-4317-a82a-0f82162cce4c
+                  bundle: slide_content_left
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600668814
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_slide_content_left_image:
+                    -
+                      entity: 65c21517-f33b-41cf-8634-5dc8b5673aa8
+                  field_slide_content_left_link:
+                    -
+                      uri: 'internal:/catalog'
+                      title: 'Go to the catalog'
+                      options: {  }
+                  field_slide_content_left_text:
+                    -
+                      value: "<p>Don’t waste your time in malls.<br />\r\nGo online - we created perfect<br />\r\nconditions for fast shopping.</p>\r\n"
+                      format: basic_html
+  layout_builder__layout:
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|frontpage-slider
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              columns: columns
+            ds_content:
+              columns: columns
+        components:
+          89af9abe-e053-4e22-b8f1-1cb41813d0e2:
+            uuid: 89af9abe-e053-4e22-b8f1-1cb41813d0e2
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_paragraphs'
+              label: Paragraphs
+              provider: layout_builder
+              label_display: 0
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings:
+                  ds:
+                    ds_limit: ''
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: 0
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          9db0c8b0-1fcf-4c49-a6a0-3b1cc535c10a:
+            uuid: 9db0c8b0-1fcf-4c49-a6a0-3b1cc535c10a
+            region: ds_content
+            configuration:
+              id: 'block_content:459b1735-442d-4595-8643-2b01f9c5b579'
+              label: 'Block mobile banner'
+              provider: block_content
+              label_display: 0
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_2col
+        layout_settings:
+          label: ''
+          wrappers:
+            left: div
+            right: div
+          outer_wrapper: div
+          attributes: class|frontpage-fullwidth
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              columns: columns
+            left: {  }
+            right: {  }
+        components:
+          18c81652-db01-450a-ad6c-ba142187a62d:
+            uuid: 18c81652-db01-450a-ad6c-ba142187a62d
+            region: left
+            configuration:
+              id: 'views_block:categories-block_1'
+              label: Products
+              provider: views
+              label_display: visible
+              views_label: Products
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-10'
+          cb229c35-281a-44ed-be43-34be738bfef4:
+            uuid: cb229c35-281a-44ed-be43-34be738bfef4
+            region: left
+            configuration:
+              id: 'system_menu_block:special-offers'
+              label: 'Special Offers'
+              provider: system
+              label_display: visible
+              level: 1
+              depth: 0
+              expand_all_items: false
+              context_mapping: {  }
+            additional: {  }
+            weight: '-9'
+          29aee724-0b40-4ed0-b7fd-6e34795a9dce:
+            uuid: 29aee724-0b40-4ed0-b7fd-6e34795a9dce
+            region: left
+            configuration:
+              id: 'views_block:popular_tags-block_1'
+              label: ''
+              provider: views
+              label_display: visible
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-8'
+          83841dd0-2c4b-4651-a7cb-7d160937b7cc:
+            uuid: 83841dd0-2c4b-4651-a7cb-7d160937b7cc
+            region: left
+            configuration:
+              id: 'block_content:4416bec6-c502-4f06-9842-fb150b759b23'
+              label: 'Banner "Discover our products"'
+              provider: block_content
+              label_display: '0'
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: discovery-banner
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: '-6'
+          905b8d1d-f7d1-4bab-8cec-78fbf2b376a2:
+            uuid: 905b8d1d-f7d1-4bab-8cec-78fbf2b376a2
+            region: right
+            configuration:
+              id: 'block_content:4ed8a449-7f45-4c98-8899-4a16dd441b8a'
+              label: 'Banner of "Bestsellers"'
+              provider: block_content
+              label_display: '0'
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: best-deals-banner
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 0
+          863bed57-981e-4964-b3ec-b95771901ae0:
+            uuid: 863bed57-981e-4964-b3ec-b95771901ae0
+            region: right
+            configuration:
+              id: 'block_content:75459614-5c76-4736-a822-45dafb0c7381'
+              label: 'Banner of "Special Price"'
+              provider: block_content
+              label_display: '0'
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: best-deals-banner
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 1
+          d00b6f05-9d7e-4d43-933e-4d81f116149c:
+            uuid: d00b6f05-9d7e-4d43-933e-4d81f116149c
+            region: left
+            configuration:
+              id: 'views_block:catalog-sale_sidebar_block'
+              label: 'Sale products'
+              provider: views
+              label_display: visible
+              views_label: 'Sale products'
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-7'
+          4df07aad-71aa-4c0d-b2dd-15cfa0fb2c25:
+            uuid: 4df07aad-71aa-4c0d-b2dd-15cfa0fb2c25
+            region: right
+            configuration:
+              id: 'views_block:catalog-new_frontpage_block'
+              label: 'New products'
+              provider: views
+              label_display: visible
+              views_label: 'New products'
+              items_per_page: none
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: products-block
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 2
+          c845f53c-02a7-4f71-b06b-f0ba8d3a046e:
+            uuid: c845f53c-02a7-4f71-b06b-f0ba8d3a046e
+            region: right
+            configuration:
+              id: 'views_block:catalog-featured_frontpage_block'
+              label: 'Featured products'
+              provider: views
+              label_display: visible
+              views_label: 'Featured products'
+              items_per_page: none
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: products-block
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 3
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|frontpage-mobile-filterbutton
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          a1c77383-bd32-4dc7-906a-eff841d1e0e3:
+            uuid: a1c77383-bd32-4dc7-906a-eff841d1e0e3
+            region: ds_content
+            configuration:
+              id: 'block_content:a62ddeb5-7800-485f-9f90-9d8645301344'
+              label: 'Filter button block'
+              provider: block_content
+              label_display: 0
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|frontpage-mobile-filters
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          2ab59c7e-5b26-4c15-9957-92fe27a3a0d2:
+            uuid: 2ab59c7e-5b26-4c15-9957-92fe27a3a0d2
+            region: ds_content
+            configuration:
+              id: 'views_block:categories-block_1'
+              label: Catalog
+              provider: views
+              label_display: visible
+              views_label: Catalog
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-10'
+          1edc88f5-4952-4814-b9e4-eed09ed6ecfd:
+            uuid: 1edc88f5-4952-4814-b9e4-eed09ed6ecfd
+            region: ds_content
+            configuration:
+              id: 'system_menu_block:special-offers'
+              label: 'Special Offers'
+              provider: system
+              label_display: visible
+              level: '1'
+              depth: '0'
+              expand_all_items: 0
+              context_mapping: {  }
+            additional: {  }
+            weight: '-9'
+          eb8f6939-6ed0-4306-9a3d-05c02ca87065:
+            uuid: eb8f6939-6ed0-4306-9a3d-05c02ca87065
+            region: ds_content
+            configuration:
+              id: 'views_block:popular_tags-block_1'
+              label: ''
+              provider: views
+              label_display: visible
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-8'
+          359d9900-7dcf-4a69-b1c5-c80b72b98183:
+            uuid: 359d9900-7dcf-4a69-b1c5-c80b72b98183
+            region: ds_content
+            configuration:
+              id: 'views_block:catalog-sale_sidebar_block'
+              label: 'Sale products'
+              provider: views
+              label_display: visible
+              views_label: 'Sale products'
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-7'
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|frontpage-mobile-content
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          4e322cc2-71d4-4a67-bbcf-c66e6ba58c81:
+            uuid: 4e322cc2-71d4-4a67-bbcf-c66e6ba58c81
+            region: ds_content
+            configuration:
+              id: 'views_block:catalog-new_frontpage_block'
+              label: 'New products'
+              provider: views
+              label_display: visible
+              views_label: 'New products'
+              items_per_page: none
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: products-block
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 0
+          ac0c07a4-196c-4cd1-81c4-11c18af12e0f:
+            uuid: ac0c07a4-196c-4cd1-81c4-11c18af12e0f
+            region: ds_content
+            configuration:
+              id: 'views_block:catalog-featured_frontpage_block'
+              label: 'Featured products'
+              provider: views
+              label_display: visible
+              views_label: 'Featured products'
+              items_per_page: none
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: products-block
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }

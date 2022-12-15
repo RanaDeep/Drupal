@@ -1,0 +1,96 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider.field_slides
+    - paragraphs.paragraphs_type.slider
+  module:
+    - ds
+    - entity_reference_revisions
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              slider: slider
+            ds_content:
+              slider: slider
+        components:
+          20cc7140-f138-4482-8640-8ed8bba238e3:
+            uuid: 20cc7140-f138-4482-8640-8ed8bba238e3
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:slider:field_slides'
+              label: Slides
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings:
+                  ds:
+                    ds_limit: ''
+                    ft:
+                      id: expert
+                      settings:
+                        lb: ''
+                        prefix: ''
+                        lbw: false
+                        lbw-el: ''
+                        lbw-cl: ''
+                        lbw-at: ''
+                        lb-col: false
+                        ow: false
+                        ow-el: ''
+                        ow-cl: ''
+                        ow-at: ''
+                        ow-def-at: false
+                        ow-def-cl: false
+                        fis: true
+                        fis-el: ''
+                        fis-cl: owl-carousel
+                        fis-at: ''
+                        fis-def-at: false
+                        fi: false
+                        fi-el: ''
+                        fi-cl: ''
+                        fi-at: ''
+                        fi-def-at: false
+                        suffix: ''
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+id: paragraph.slider.default
+targetEntityType: paragraph
+bundle: slider
+mode: default
+content:
+  field_slides:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

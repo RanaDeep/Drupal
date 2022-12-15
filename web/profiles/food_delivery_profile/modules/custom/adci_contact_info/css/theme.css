@@ -1,0 +1,30 @@
+.adci-contact-info * {
+  margin: 0;
+  padding: 0;
+  font-size: 1em !important;
+}
+
+.adci-contact-info {
+  position: relative;
+  float: right;
+  z-index: 1;
+  color: inherit;
+}
+
+.adci-contact-info-adminimal {
+  color: #ffffff;
+}
+
+.adci-contact-info label {
+  float: left;
+  margin-right: 5px !important;
+  font-weight: normal;
+}
+
+.adci-contact-info div {
+  clear: both;
+}
+
+.adci-contact-info li {
+  list-style-type: disc;
+}

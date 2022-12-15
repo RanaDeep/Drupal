@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.product_default
+label: 'Product: Default'
+targetEntityType: media
+cache: true

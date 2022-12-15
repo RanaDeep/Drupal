@@ -1,0 +1,203 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e8886e5d-d4f8-4fe8-b0db-4af421813aa3
+  bundle: page
+  default_langcode: en
+  depends:
+    7a4133e1-f2ed-41f2-9fbc-926771444246: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Cart
+  created:
+    -
+      value: 1600249187
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /cart
+      langcode: en
+      pathauto: 0
+  field_page_banner:
+    -
+      entity: 7a4133e1-f2ed-41f2-9fbc-926771444246
+  layout_builder__layout:
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              'catalog banner': 'catalog banner'
+            ds_content:
+              'catalog banner': 'catalog banner'
+        components:
+          204b5a77-5c28-4359-8595-0332391313f3:
+            uuid: 204b5a77-5c28-4359-8595-0332391313f3
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-title
+                  style: ''
+                  data: ''
+            weight: 0
+          1d192e28-9db2-4577-996b-1dd1ef7cc2e6:
+            uuid: 1d192e28-9db2-4577-996b-1dd1ef7cc2e6
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_banner'
+              label: Banner
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-image
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              breadcrumbs: breadcrumbs
+            ds_content:
+              breadcrumbs: breadcrumbs
+        components:
+          832b7c45-d7b8-47ab-83c5-9f2ae74084bf:
+            uuid: 832b7c45-d7b8-47ab-83c5-9f2ae74084bf
+            region: ds_content
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|path-cart
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              columns: columns
+            ds_content: {  }
+        components:
+          37e56be6-8aff-4e1b-88a9-dfb5e9cb9ccc:
+            uuid: 37e56be6-8aff-4e1b-88a9-dfb5e9cb9ccc
+            region: ds_content
+            configuration:
+              id: 'views_block:commerce_cart_form-block_1'
+              label: ''
+              provider: views
+              label_display: 0
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+          8627b5db-11e3-4ae7-9dcf-5537078c4192:
+            uuid: 8627b5db-11e3-4ae7-9dcf-5537078c4192
+            region: ds_content
+            configuration:
+              id: 'block_content:95ce1f38-14b6-46ef-91d4-bbdc86037fb6'
+              label: 'Shopping cart footer'
+              provider: block_content
+              label_display: 0
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }

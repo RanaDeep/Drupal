@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.custom_shopping_cart
+  module:
+    - block_class
+    - views
+  theme:
+    - food_delivery_theme
+third_party_settings:
+  block_class:
+    classes: header-cart-block
+id: food_delivery_theme_shopping_cart
+theme: food_delivery_theme
+region: header
+weight: -10
+provider: null
+plugin: 'views_block:custom_shopping_cart-cart'
+settings:
+  id: 'views_block:custom_shopping_cart-cart'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

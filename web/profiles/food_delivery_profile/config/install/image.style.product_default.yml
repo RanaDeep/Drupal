@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: product_default
+label: 'Product: Default (265x195)'
+effects:
+  fc39c657-0210-43b6-bb35-c9f4ae962085:
+    uuid: fc39c657-0210-43b6-bb35-c9f4ae962085
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 265
+      height: 195
+      crop_type: focal_point

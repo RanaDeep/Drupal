@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f13ea7de-c869-4b71-8096-42ed54e3d5cd
+  bundle: image
+  default_langcode: en
+  depends:
+    33584c66-e285-48c6-8601-ae72150eeebb: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: about-photo-3.jpg
+  created:
+    -
+      value: 1600233745
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 33584c66-e285-48c6-8601-ae72150eeebb
+      alt: 'Susan Evans'
+      title: ''
+      width: 918
+      height: 928

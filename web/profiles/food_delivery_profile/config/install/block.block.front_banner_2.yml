@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - bartik
+third_party_settings:
+  block_class:
+    classes: 'best-deals-banners home-banner'
+id: front_banner_2
+theme: bartik
+region: content
+weight: -13
+provider: null
+plugin: 'block_content:4ed8a449-7f45-4c98-8899-4a16dd441b8a'
+settings:
+  id: 'block_content:4ed8a449-7f45-4c98-8899-4a16dd441b8a'
+  label: 'Banner of "Bestsellers"'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

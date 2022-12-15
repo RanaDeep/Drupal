@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 6d0d4a90-66b4-4bf4-bee7-215bea6143b5
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Total Price block'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p><span class=\"label-price\">Total Price: </span></p>\r\n\r\n<div class=\"total-price\">&nbsp;</div>\r\n"
+      format: full_html
+      summary: ''

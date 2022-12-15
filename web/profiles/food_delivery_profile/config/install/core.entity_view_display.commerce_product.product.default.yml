@@ -1,0 +1,96 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product
+  module:
+    - ds
+    - layout_builder
+    - system
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              breadcrumbs: breadcrumbs
+            ds_content:
+              breadcrumbs: breadcrumbs
+        components:
+          8d3eb74c-3aef-47c5-91f2-720c563e37f7:
+            uuid: 8d3eb74c-3aef-47c5-91f2-720c563e37f7
+            region: ds_content
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          4e4643d6-3d8a-4211-9a5f-62716273c742:
+            uuid: 4e4643d6-3d8a-4211-9a5f-62716273c742
+            region: ds_content
+            configuration:
+              id: 'field_block:commerce_product:product:variations'
+              label: Variations
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings:
+                  ds:
+                    ds_limit: ''
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: false
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+id: commerce_product.product.default
+targetEntityType: commerce_product
+bundle: product
+mode: default
+content: {  }
+hidden:
+  created: true
+  search_api_excerpt: true
+  stores: true
+  title: true
+  uid: true
+  variations: true

@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * @file
+ * Contains commerce_addtocart_ajax module.
+ */
+
+use Drupal\commerce_cart\Form\AddToCartFormInterface;
+use Drupal\Core\Ajax\AjaxResponse;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function commerce_addtocart_ajax_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the commerce_addtocart_ajax module.
+    case 'help.page.commerce_addtocart_ajax':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add commerce AddToCart Ajax functionalities.') . '</p>';
+      return $output;
+
+    default:
+      return '';
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function commerce_addtocart_ajax_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  // Check if the form builder implements the AddToCartFormInterface.
+  if ($form_state->getBuildInfo()['callback_object'] instanceof AddToCartFormInterface) {
+    /** @var \Drupal\commerce_addtocart_ajax\Helper\AjaxCartHelper $ajaxcart_helper */
+    $ajaxcart_helper = \Drupal::service('commerce_addtocart_ajax.helper');
+    $ajaxcart_helper->ajaxAddToCartAjaxForm($form, $form_id);
+  }
+}
+
+/**
+ * Implements hook_form_validate().
+ */
+function commerce_addtocart_ajax_ajax_validate(array &$form, FormStateInterface $form_state) {
+  $response = new AjaxResponse();
+  $form_id = $form_state->getUserInput()['form_id'];
+  /** @var \Drupal\commerce_addtocart_ajax\Helper\AjaxCartHelper $ajax_helper */
+  $ajax_helper = \Drupal::service('commerce_addtocart_ajax.helper');
+  $ajax_helper->ajaxAddToCartAjaxResponse($form, $form_id, $response);
+  return $response;
+}
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function commerce_addtocart_ajax_preprocess_block(&$vars) {
+  if ($vars['base_plugin_id'] === 'commerce_cart') {
+    // Add a class to the cart block so that we can replace it using Ajax.
+    $vars['attributes']['class'][] = 'block-commerce-cart';
+  }
+}

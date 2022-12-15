@@ -1,0 +1,865 @@
+@import "fonts.css";
+/*
+* Default styles for html.
+*/
+html {
+  position: relative;
+  height: 100%;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+/*
+* Default styles for body.
+*/
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  position: relative;
+}
+
+/*
+* Corrects columns background and color on selection.
+*/
+div#columns *::-moz-selection {
+  background: #0ab29c;
+  color: white;
+}
+
+div#columns *::selection {
+  background: #0ab29c;
+  color: white;
+}
+
+/*
+* Corrects block display not defined in IE6/7/8/9 & FF3
+*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+* Corrects inline-block display not defined in IE6/7/8/9 & FF3
+*/
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/*
+* Prevents modern browsers from displaying 'audio' without controls
+* Remove excess height in iOS5 devices
+*/
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+* Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+* Known issue: no IE6 support
+*/
+[hidden] {
+  display: none;
+}
+
+body {
+  margin: 0;
+}
+
+ul li,
+ul li.leaf {
+  list-style: none;
+}
+
+/*
+* Headings
+*
+* Addresses font sizes and margins set differently in IE6/7
+* Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+*/
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+h2,
+.steps-title,
+.contact-title,
+.faq-list-title,
+.info-blocks-title,
+.facts-title,
+.team-title,
+.clients-title {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h3,
+.banner-title,
+.step-title,
+.info-block-title,
+.checkout-pane span.fieldset-legend {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+.banner-title,
+.steps-title,
+.step-title,
+.contact-title,
+.faq-list-title,
+.info-blocks-title,
+.info-block-title,
+.facts-title,
+.team-title,
+.clients-title {
+  font-family: "Gilroy", sans-serif;
+  color: #424242;
+  font-weight: 600;
+  margin: 0;
+}
+
+.page a {
+  text-decoration: none;
+  color: #202020;
+  font-family: "Open Sans", sans-serif;
+  transition: all .2s;
+  border-bottom: none;
+}
+
+/*
+* Addresses outline displayed oddly in Chrome
+*/
+a:focus {
+  outline: thin dotted;
+  text-decoration: none;
+}
+
+/*
+* Improves readability when focused and also mouse hovered in all browsers
+* people.opera.com/patrickl/experiments/keyboard/test
+*/
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #202020;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+pre,
+code,
+tt,
+samp,
+kbd,
+var {
+  font-family: Consolas, Monaco, 'Courier New', Courier, monospace, sans-serif;
+}
+
+/*
+* Addresses styling not present in IE7/8/9, S5, Chrome
+*/
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+* Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+*/
+b,
+strong {
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+/*
+* Addresses styling not present in S5, Chrome
+*/
+dfn {
+  font-style: italic;
+}
+
+/*
+* Addresses styling not present in IE6/7/8/9
+*/
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+* Addresses margins set differently in IE6/7
+*/
+p,
+pre {
+  margin: 0;
+}
+
+/*
+* Corrects font family set oddly in IE6, S4/5, Chrome
+* en.wikipedia.org/wiki/User:Davidgothberg/Test59
+*/
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/*
+* Improves readability of pre-formatted text in all browsers
+*/
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+* 1. Addresses CSS quotes not supported in IE6/7
+* 2. Addresses quote property not supported in S4
+*/
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: none;
+}
+
+/*
+* Prevents sub and sup affecting line-height in all browsers
+* gist.github.com/413930
+*/
+small,
+sub,
+sup {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/*
+* Remove controls from numeric input on Chrome, Safari, Edge, Opera
+*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove controls from numeric input on Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*=============================================================================
+    Forms
+  ========================================================================== */
+
+/*
+* Corrects margin displayed oddly in IE6/7
+*/
+figure,
+form {
+  margin: 0;
+}
+
+/*
+* Define consistent border, margin, and padding
+*/
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/*
+* 1. Corrects color not being inherited in IE6/7/8/9
+* 2. Corrects text not wrapping in FF3
+* 3. Corrects alignment displayed oddly in IE6/7
+*/
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/*
+* 1. Corrects font size not being inherited in all browsers
+* 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+* 3. Improves appearance and consistency in all browsers
+*/
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/*
+* Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+*/
+button,
+input {
+  line-height: normal;
+}
+
+/*
+* 1. Improves usability and consistency of cursor style between image-type 'input' and others
+* 2. Corrects inability to style clickable 'input' types in iOS
+* 3. Removes inner spacing in IE7 without affecting normal text inputs
+*    Known issue: inner spacing remains in IE6
+*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+  transition: all .2s;
+}
+
+/*
+* Re-set default cursor for disabled elements
+*/
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+* 1. Addresses box sizing set to content-box in IE8/9
+* 2. Removes excess padding in IE8/9
+* 3. Removes excess padding in IE7
+*    Known issue: excess padding remains in IE6
+*/
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/*
+* 1. Addresses appearance set to search field in S5, Chrome
+* 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+*/
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/*
+* Removes inner padding and search cancel button in S5, Chrome on OS X
+*/
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+* Removes inner padding and border in FF3+
+* www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+*/
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+* Removes offset in <input> spin widgets.
+*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*
+* Auth inputs.
+*/
+input[type="text"],
+input[type="password"] {
+  box-sizing: border-box;
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  line-height: 50px;
+  color: #606060;
+  transition: border-color 0.2s ease;
+}
+
+/*
+* 1. Removes default vertical scrollbar in IE6/7/8/9
+* 2. Improves readability and alignment in all browsers
+*/
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* =============================================================================
+ *   Tables
+ * ========================================================================== */
+
+/*
+* Tables
+*/
+
+table,
+tbody,
+td,
+th,
+thead,
+tr {
+  border: none;
+}
+
+table tr th,
+table tr th a,
+table tr th a:hover {
+  background: #f5f5f5;
+}
+
+tbody tr {
+  border: none;
+}
+
+tr.odd {
+  background: #fff;
+  border: none;
+}
+
+table {
+  margin: 25px 0 25px 0;
+  border: none;
+}
+
+table tr {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+table tr th,
+table tr td {
+  padding: 20px 30px;
+}
+
+table tr th {
+  color: #424242;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+table tr td {
+  color: #202020;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0;
+}
+
+table.sticky-header {
+  z-index: 10;
+}
+
+table,
+tbody,
+td,
+th,
+thead,
+tr {
+  border-color: #ccc;
+}
+
+table tr th,
+table tr th a,
+table tr th a:hover {
+  font-weight: bold;
+  color: #606060;
+  background: #fff;
+}
+
+table,
+td,
+th {
+  vertical-align: middle;
+}
+
+caption,
+td,
+th {
+  text-align: left;
+}
+
+thead tr {
+  font-weight: 700;
+  background-color: #fff;
+}
+
+td,
+th {
+  margin: 0;
+  padding: 5px 7px;
+  border-bottom: 0;
+}
+
+tbody tr {
+  border-top: 1px solid #ccc;
+}
+
+tr.odd {
+  background: whitesmoke;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.even,
+tr.info,
+tr:nth-child(2n+2) {
+  border-bottom: 0;
+  background-color: #fff;
+}
+
+tr.odd td.active {
+  background-color: whitesmoke;
+}
+
+tr.even td.active {
+  background-color: #ebebeb;
+}
+
+/*
+ * 1. Remove most spacing between table cells
+ */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: inherit;
+}
+
+/* =============================================================================
+    Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7
+ */
+menu,
+ol,
+ul {
+  padding: 0;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE7
+ */
+nav ol,
+nav ul {
+  list-style: none;
+}
+
+h2,
+h3,
+.views-field {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  box-sizing: border-box;
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  line-height: 50px;
+  color: #606060;
+  transition: border-color 0.2s ease;
+  min-width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+  border-color: #0ab29c;
+}
+
+.password-field,
+.password-confirm,
+.password-strength {
+  width: 100%;
+}
+
+/* Buttons */
+.popular-tags a {
+  display: block;
+  border: 2px solid #0ab29c !important;
+  border-radius: 18px;
+  color: #0ab29c !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px !important;
+  padding: 0 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.popular-tags a:hover {
+  background-color: #0ab29c !important;
+  color: white !important;
+}
+
+.button {
+  border: none;
+  background: none;
+  color: transparent;
+  padding: 0;
+}
+
+.button:hover {
+  background: none;
+  cursor: pointer;
+}
+
+a.button,
+button.button,
+.button a,
+#edit-checkout,
+input[type="submit"]:not(.delete-order-item),
+.checkout-buttons input.checkout-continue,
+.checkout-buttons input.checkout-back,
+#subscribe .form-submit,
+#edit-cancel {
+  display: inline-block;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 16px 37px;
+  border-radius: 28px;
+  background-image: none;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+}
+
+/* Green buttons */
+.checkout-buttons input.checkout-continue,
+a.button-border-green,
+.button-border-green a {
+  color: #0ab29c;
+  border: 3px solid #0ab29c !important;
+  padding: 13px 37px !important;
+  background: transparent;
+}
+
+.checkout-buttons input.checkout-continue:hover,
+a.button-border-green:hover,
+.button-border-green a:hover {
+  background-color: #0ab29c !important;
+  color: white;
+}
+
+a.button-fill-green,
+span.button-fill-green,
+button.button-fill-green,
+.button-fill-green a,
+#edit-checkout,
+input[type="submit"]:not(.delete-order-item) {
+  color: #fffefe;
+  background-color: #0ab29c;
+  border: none;
+  background-image: none;
+}
+
+a.button-fill-green:hover,
+span.button-fill-green:hover,
+button.button-fill-green:hover,
+.button-fill-green a:hover,
+#edit-checkout:hover,
+input[type="submit"]:not(.delete-order-item):hover {
+  background-color: #2fbdab;
+  color: #ffffff;
+}
+
+#edit-cancel {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #54d682;
+  border: 1px solid #54d682;
+  border-radius: 5px;
+  background: #fff;
+}
+
+/* Gray buttons */
+a.button-border-gray,
+button.button-border-gray,
+.button-border-gray a {
+  color: #424242;
+  border: 3px solid #424242;
+  padding: 13px 37px;
+  background-color: transparent;
+}
+
+a.button-border-gray:hover,
+button.button-border-gray:hover,
+.button-border-gray a:hover {
+  background-color: #424242;
+  color: white;
+}
+
+.checkout-buttons input.checkout-back,
+a.button-fill-gray,
+#edit-cancel,
+.button-fill-gray a {
+  color: #fffefe;
+  background-color: #424242;
+  background-image: none;
+}
+
+.checkout-buttons input.checkout-back:hover,
+a.button-fill-gray:hover,
+#edit-cancel:hover,
+.button-fill-gray a:hover {
+  background-color: #5e5e5e;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*
+* Delete buttons.
+*/
+.button-remove-default {
+  background-image: none;
+  border: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.button-remove-default:hover {
+  background: transparent;
+  border: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+* Remove default node offset.
+*/
+.node__content,
+.field--type-entity-reference {
+  margin: 0 !important;
+}
+
+/*
+* Remove default media offset and float.
+*/
+.field--type-image {
+  float: unset !important;
+  margin: 0 !important;
+}
+
+/*
+* Update default width of layout.
+*/
+.content .columns .group-left {
+  width: 25%;
+  float: none;
+  padding-right: 30px;
+}
+
+.content .columns .group-right {
+  width: 75%;
+  float: none;
+}
+
+/*
+* Remove default offsets in lists.
+*/
+.item-list ul,
+.item-list ul li {
+  margin: 0 !important;
+}
+
+.group-left li.menu-item {
+  padding: 0 !important;
+}

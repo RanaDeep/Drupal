@@ -1,0 +1,427 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c8615eaf-767f-44f1-afb7-5180f764a0e6
+  bundle: page
+  default_langcode: en
+  depends:
+    5ca3a5cc-5b7d-4238-8769-df480b97f01b: media
+    ff4119d7-4708-479a-85f3-18f57458419d: media
+    f0c29877-5276-4c3b-8e1e-c7d7b2c27f47: media
+    c129b86f-2642-4b80-88fb-c27e61963917: media
+    922c044d-a483-4878-80d1-3fd246f220b4: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Contact Us'
+  created:
+    -
+      value: 1600238545
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /contact-us
+      langcode: en
+      pathauto: 0
+  field_page_banner:
+    -
+      entity: 5ca3a5cc-5b7d-4238-8769-df480b97f01b
+  field_page_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 44859838-c03f-4b60-ab9a-3cc38cd759d1
+          bundle: info_blocks
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1600238597
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_info_blocks:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 9e090e20-0fc9-4fe9-9c8d-fb58a5d7d2b2
+                  bundle: info_block
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600238597
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_info_block_icon:
+                    -
+                      entity: ff4119d7-4708-479a-85f3-18f57458419d
+                  field_info_block_text:
+                    -
+                      value: "NY Street Name 80,\r\n987654 Food Delivery"
+                  field_info_block_title:
+                    -
+                      value: Address
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: aa218206-9d40-4f9e-8af4-8407dfecdecc
+                  bundle: info_block
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600238675
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_info_block_icon:
+                    -
+                      entity: f0c29877-5276-4c3b-8e1e-c7d7b2c27f47
+                  field_info_block_text:
+                    -
+                      value: "Monday to Friday: 10am to 7pm\r\nSaturday: 10am to 4pm\r\nSunday: 12am to 4pm"
+                  field_info_block_title:
+                    -
+                      value: 'Opening hours'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c5c7e09e-3049-466d-9162-1ad1c493427a
+                  bundle: info_block
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600238734
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_info_block_icon:
+                    -
+                      entity: c129b86f-2642-4b80-88fb-c27e61963917
+                  field_info_block_text:
+                    -
+                      value: mail@yourcompany.com
+                  field_info_block_title:
+                    -
+                      value: Email
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: bf6718a8-63c4-4145-9d57-60f1ab3a2f3d
+                  bundle: info_block
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1600238830
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_info_block_icon:
+                    -
+                      entity: 922c044d-a483-4878-80d1-3fd246f220b4
+                  field_info_block_text:
+                    -
+                      value: "Call customer services on\r\n0800 321 4568"
+                  field_info_block_title:
+                    -
+                      value: Phone
+          field_info_blocks_text:
+            -
+              value: 'Food Delivery talent of others is an arduous task. We ask you to be considerate in your decisions, thorough in your analysis, understanding in your criticism'
+          field_info_blocks_title:
+            -
+              value: 'How to get in touch with us?'
+  layout_builder__layout:
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              banner: banner
+            ds_content:
+              banner: banner
+        components:
+          204b5a77-5c28-4359-8595-0332391313f3:
+            uuid: 204b5a77-5c28-4359-8595-0332391313f3
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-title
+                  style: ''
+                  data: ''
+            weight: 0
+          1d192e28-9db2-4577-996b-1dd1ef7cc2e6:
+            uuid: 1d192e28-9db2-4577-996b-1dd1ef7cc2e6
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_banner'
+              label: Banner
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-image
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              breadcrumbs: breadcrumbs
+            ds_content:
+              breadcrumbs: breadcrumbs
+        components:
+          832b7c45-d7b8-47ab-83c5-9f2ae74084bf:
+            uuid: 832b7c45-d7b8-47ab-83c5-9f2ae74084bf
+            region: ds_content
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              columns: columns
+            ds_content:
+              columns: columns
+        components:
+          a162a50b-dc2f-4dcc-9c36-96a643f1b88a:
+            uuid: a162a50b-dc2f-4dcc-9c36-96a643f1b88a
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_paragraphs'
+              label: Paragraphs
+              provider: layout_builder
+              label_display: 0
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          53213f88-af7e-44fb-a554-adbf7641c44e:
+            uuid: 53213f88-af7e-44fb-a554-adbf7641c44e
+            region: ds_content
+            configuration:
+              id: webform_block
+              label: 'Drop Us a line'
+              provider: webform
+              label_display: visible
+              webform_id: contact_us
+              default_data: ''
+              redirect: 0
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: contact-form
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              map: map
+            ds_content:
+              map: map
+        components:
+          edeebba3-0a11-4a33-bde6-28bfa7c64c26:
+            uuid: edeebba3-0a11-4a33-bde6-28bfa7c64c26
+            region: ds_content
+            configuration:
+              id: 'block_content:845dea44-7c9f-410c-bc4a-ba0d9a360f72'
+              label: 'Contact Us: Map'
+              provider: block_content
+              label_display: 0
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: map
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 0
+        third_party_settings: {  }

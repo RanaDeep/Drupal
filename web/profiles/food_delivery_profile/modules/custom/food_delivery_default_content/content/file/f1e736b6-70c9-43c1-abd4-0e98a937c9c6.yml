@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f1e736b6-70c9-43c1-abd4-0e98a937c9c6
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: about-photo-1.jpg
+  uri:
+    -
+      value: 'public://2020-09/about-photo-1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 49641
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600233571
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

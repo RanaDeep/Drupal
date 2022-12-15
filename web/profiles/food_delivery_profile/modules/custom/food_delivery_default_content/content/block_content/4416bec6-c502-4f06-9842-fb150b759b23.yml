@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 4416bec6-c502-4f06-9842-fb150b759b23
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Banner "Discover our products"'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<div class=\"banner-content\">\r\n<h3><a href=\"/catalog\">Catalog</a></h3>\r\n\r\n<div class=\"banner-img\"><img alt=\"banner_catalog\" data-entity-type=\"file\" data-entity-uuid=\"0af5f537-fdaa-495f-9a2a-5cf3e329734e\" src=\"/sites/default/files/inline-images/banner_catalog.jpg\" /></div>\r\n\r\n<p><a href=\"/catalog\">Discover our<br />\r\nproducts</a></p>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

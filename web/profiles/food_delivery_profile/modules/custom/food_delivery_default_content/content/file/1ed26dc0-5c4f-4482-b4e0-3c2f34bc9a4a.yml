@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1ed26dc0-5c4f-4482-b4e0-3c2f34bc9a4a
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Orange.jpg
+  uri:
+    -
+      value: 'public://2020-06/Orange_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 48215
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592803416
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

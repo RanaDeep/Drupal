@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.subscribe
+  module:
+    - system
+    - webform
+  theme:
+    - food_delivery_theme
+id: webform_2
+theme: food_delivery_theme
+region: subscribe
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Subscribe to our newsletter!'
+  provider: webform
+  label_display: visible
+  webform_id: subscribe
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/catalog\r\n/catalog/*\r\n/about"
+    negate: false
+    context_mapping: {  }

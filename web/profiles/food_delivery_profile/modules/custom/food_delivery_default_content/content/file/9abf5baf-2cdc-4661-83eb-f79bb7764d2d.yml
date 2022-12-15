@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9abf5baf-2cdc-4661-83eb-f79bb7764d2d
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: about-icon-2.png
+  uri:
+    -
+      value: 'public://inline-images/about-icon-2_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 8096
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594886705
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8dfcff7c-ca2b-4096-ac04-7b5e86b58cd1
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Blueberries_Puerto_Montt.jpg
+  uri:
+    -
+      value: 'public://2020-07/Blueberries_Puerto_Montt_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38192
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594637103
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

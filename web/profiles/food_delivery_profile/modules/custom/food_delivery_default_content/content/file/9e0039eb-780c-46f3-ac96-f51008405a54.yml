@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9e0039eb-780c-46f3-ac96-f51008405a54
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Apricot.jpg
+  uri:
+    -
+      value: 'public://2020-07/Apricot_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 24255
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594636912
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

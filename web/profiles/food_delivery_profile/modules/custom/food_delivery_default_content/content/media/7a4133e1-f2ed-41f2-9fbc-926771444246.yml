@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7a4133e1-f2ed-41f2-9fbc-926771444246
+  bundle: image
+  default_langcode: en
+  depends:
+    13c7dfa1-3a0d-4371-ae00-59253ad4e05a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: products-banner.jpg
+  created:
+    -
+      value: 1600246704
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 13c7dfa1-3a0d-4371-ae00-59253ad4e05a
+      alt: products-banner
+      title: ''
+      width: 1270
+      height: 200

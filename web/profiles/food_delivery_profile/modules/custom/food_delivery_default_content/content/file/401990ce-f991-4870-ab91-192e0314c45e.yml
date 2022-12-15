@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 401990ce-f991-4870-ab91-192e0314c45e
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Potatoes.jpg
+  uri:
+    -
+      value: 'public://2020-06/Potatoes_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50278
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1591868568
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 884f75f9-d3ac-42c5-851f-7e114c96c9b7
+  bundle: image
+  default_langcode: en
+  depends:
+    62de304b-9e4c-408f-a7fb-cd2732e1cccc: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: how-it-works-banner.jpg
+  created:
+    -
+      value: 1600229744
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 62de304b-9e4c-408f-a7fb-cd2732e1cccc
+      alt: 'How It Works Banner'
+      title: ''
+      width: 1270
+      height: 200

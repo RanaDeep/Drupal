@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8966d208-a46d-4c8f-8144-6dc757fd724f
+  bundle: image
+  default_langcode: en
+  depends:
+    b3ac357a-a644-4a42-892a-9f3a4d5ed7c5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: list.png
+  created:
+    -
+      value: 1600232168
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: b3ac357a-a644-4a42-892a-9f3a4d5ed7c5
+      alt: List
+      title: ''
+      width: 73
+      height: 73

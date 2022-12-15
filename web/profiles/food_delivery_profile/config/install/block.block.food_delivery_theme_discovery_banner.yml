@@ -1,0 +1,34 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:4416bec6-c502-4f06-9842-fb150b759b23'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - food_delivery_theme
+third_party_settings:
+  block_class:
+    classes: banner-catalog-1
+id: food_delivery_theme_discovery_banner
+theme: food_delivery_theme
+region: header
+weight: -2
+provider: null
+plugin: 'block_content:4416bec6-c502-4f06-9842-fb150b759b23'
+settings:
+  id: 'block_content:4416bec6-c502-4f06-9842-fb150b759b23'
+  label: 'Banner "Discover our products"'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

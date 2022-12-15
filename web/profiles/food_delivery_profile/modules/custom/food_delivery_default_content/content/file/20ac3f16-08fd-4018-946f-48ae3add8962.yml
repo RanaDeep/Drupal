@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 20ac3f16-08fd-4018-946f-48ae3add8962
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Beets.jpg
+  uri:
+    -
+      value: 'public://2020-07/Beets_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 51863
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594637067
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

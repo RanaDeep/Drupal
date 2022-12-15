@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik
+id: footerfirstcolumnblock
+theme: bartik
+region: footer_first
+weight: -15
+provider: null
+plugin: 'block_content:0e32bc60-33e7-461f-a47a-c28c3790dac7'
+settings:
+  id: 'block_content:0e32bc60-33e7-461f-a47a-c28c3790dac7'
+  label: 'Footer first column block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

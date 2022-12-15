@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0882dd6a-60f7-4565-b2b7-21af2085b6e1
+  bundle: image
+  default_langcode: en
+  depends:
+    dc06ddbb-15a7-4514-8ba8-327f2d4af471: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Basil_scented.jpg
+  created:
+    -
+      value: 1594637026
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: dc06ddbb-15a7-4514-8ba8-327f2d4af471
+      alt: 'Basil scented'
+      title: ''
+      width: 400
+      height: 480

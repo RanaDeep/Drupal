@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dfa75482-4c46-42d6-9885-8a11edf14d5b
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Cherry.jpg
+  uri:
+    -
+      value: 'public://2020-06/Cherry_3_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 41338
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1591777906
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

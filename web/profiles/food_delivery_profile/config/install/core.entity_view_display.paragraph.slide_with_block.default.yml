@@ -1,0 +1,246 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide_with_block.field_slide_with_block_block
+    - field.field.paragraph.slide_with_block.field_slide_with_block_image
+    - field.field.paragraph.slide_with_block.field_slide_with_block_text
+    - field.field.paragraph.slide_with_block.field_slide_with_block_title
+    - paragraphs.paragraphs_type.slide_with_block
+  module:
+    - ds
+    - layout_builder
+    - text
+    - viewsreference
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              slide-with-block: slide-with-block
+            ds_content:
+              slide-with-block: slide-with-block
+        components:
+          8117e592-1496-42c4-9806-0481c2b88f9d:
+            uuid: 8117e592-1496-42c4-9806-0481c2b88f9d
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:slide_with_block:field_slide_with_block_block'
+              label: Block
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: viewsreference_formatter
+                settings:
+                  plugin_types:
+                    block: block
+                    default: 0
+                    page: 0
+                    feed: 0
+                    embed: 0
+                third_party_settings:
+                  ds:
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: false
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: slide-with-block__block
+                  style: ''
+                  data: ''
+            weight: -7
+          801ccd08-9bcb-4082-80e7-9bdf13d96176:
+            uuid: 801ccd08-9bcb-4082-80e7-9bdf13d96176
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:slide_with_block:field_slide_with_block_image'
+              label: Image
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings:
+                  ds:
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: false
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: slider-image
+                  style: ''
+                  data: ''
+            weight: -10
+          3cdef9c2-b10f-435f-9639-9443d05d77f0:
+            uuid: 3cdef9c2-b10f-435f-9639-9443d05d77f0
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:slide_with_block:field_slide_with_block_text'
+              label: Text
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings:
+                  ds:
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: false
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: slide-with-block__text
+                  style: ''
+                  data: ''
+            weight: -8
+          b318d4d6-d41b-4560-b200-a8d0a14984df:
+            uuid: b318d4d6-d41b-4560-b200-a8d0a14984df
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:slide_with_block:field_slide_with_block_title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings:
+                  ds:
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: false
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: slide-with-block__title
+                  style: ''
+                  data: ''
+            weight: -9
+        third_party_settings: {  }
+id: paragraph.slide_with_block.default
+targetEntityType: paragraph
+bundle: slide_with_block
+mode: default
+content:
+  field_slide_with_block_block:
+    weight: 2
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+  field_slide_with_block_image:
+    type: entity_reference_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_slide_with_block_text:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: ds_content
+  field_slide_with_block_title:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: ds_content
+hidden:
+  search_api_excerpt: true

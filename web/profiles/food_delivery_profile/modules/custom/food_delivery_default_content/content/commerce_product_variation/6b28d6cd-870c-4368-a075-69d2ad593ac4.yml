@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 6b28d6cd-870c-4368-a075-69d2ad593ac4
+  bundle: product
+  default_langcode: en
+  depends:
+    a5c917ae-9bb2-49b9-8ed0-84c4bccfd901: commerce_product
+    4a374eb9-db67-4a56-b8fb-5571b7541867: taxonomy_term
+    7eabf9fa-54cb-4df0-96fd-a07823d12768: media
+    a5dbd5c3-3323-427f-95e0-f706383b43fe: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: a5c917ae-9bb2-49b9-8ed0-84c4bccfd901
+  sku:
+    -
+      value: '1293029381'
+  title:
+    -
+      value: Almonds
+  price:
+    -
+      number: '15.000000'
+      currency_code: USD
+      formatted: $15.00
+  created:
+    -
+      value: 1593164186
+  field_product_category:
+    -
+      entity: 4a374eb9-db67-4a56-b8fb-5571b7541867
+  field_product_featured:
+    -
+      value: true
+  field_product_image:
+    -
+      entity: 7eabf9fa-54cb-4df0-96fd-a07823d12768
+  field_product_new:
+    -
+      value: false
+  field_product_old_price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  field_product_on_sale:
+    -
+      value: true
+  field_product_tag:
+    -
+      entity: a5dbd5c3-3323-427f-95e0-f706383b43fe
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '5.000000'
+      unit: kg

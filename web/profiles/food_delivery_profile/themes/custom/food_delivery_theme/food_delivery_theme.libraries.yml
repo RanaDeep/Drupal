@@ -1,0 +1,38 @@
+global:
+  css:
+    theme:
+      css/fonts.css: {}
+      css/default.css: {}
+      css/style.css: {}
+      css/header.css: {}
+      css/footer.css: {}
+      css/responsive.custom.css: {}
+  js:
+    js/script.js: {}
+    js/popup-cart.js: {}
+slider:
+  css:
+    theme:
+      css/slider.css: {}
+cart:
+  css:
+    theme:
+      css/cart.css: {}
+  js:
+    js/shopping-cart.js: {}
+checkout:
+  css:
+    theme:
+      css/checkout.css: {}
+typography:
+  css:
+    theme:
+      css/typography.css: {}
+owl_carousel:
+  css:
+    theme:
+      /libraries/owlcarousel/owl-carousel/owl.carousel.css: {}
+      /libraries/owlcarousel/owl-carousel/owl.theme.css: {}
+  js:
+    /libraries/owlcarousel/owl-carousel/owl.carousel.js: {}
+    js/owl_init.js: {}

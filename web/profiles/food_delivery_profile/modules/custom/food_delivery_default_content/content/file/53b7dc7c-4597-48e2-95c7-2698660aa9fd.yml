@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 53b7dc7c-4597-48e2-95c7-2698660aa9fd
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: esto.png
+  uri:
+    -
+      value: 'public://2020-07/esto_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 14121
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892690
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

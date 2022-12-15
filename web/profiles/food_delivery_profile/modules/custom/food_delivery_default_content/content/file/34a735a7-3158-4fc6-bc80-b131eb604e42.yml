@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 34a735a7-3158-4fc6-bc80-b131eb604e42
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'retro racer.png'
+  uri:
+    -
+      value: 'public://2020-07/retro racer_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 17683
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892589
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

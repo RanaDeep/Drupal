@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 40f0aa6c-a8ce-434a-b04d-a43658491436
+  bundle: image
+  default_langcode: en
+  depends:
+    063daff3-f6d7-45c0-af93-d63d6f280ea2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Banana.jpg
+  created:
+    -
+      value: 1594636978
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 063daff3-f6d7-45c0-af93-d63d6f280ea2
+      alt: Banana
+      title: ''
+      width: 400
+      height: 480

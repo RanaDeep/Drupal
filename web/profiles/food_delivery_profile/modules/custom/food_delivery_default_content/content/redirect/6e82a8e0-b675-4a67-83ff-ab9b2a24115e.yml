@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 6e82a8e0-b675-4a67-83ff-ab9b2a24115e
+  bundle: redirect
+  default_langcode: und
+default:
+  hash:
+    -
+      value: UsITGk0qMZd52GJPI773XhvneLXcS5C7xKmaQT1lYt8
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: webform/subscribe
+      query: {  }
+  redirect_redirect:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  status_code:
+    -
+      value: 301
+  created:
+    -
+      value: 1610308354

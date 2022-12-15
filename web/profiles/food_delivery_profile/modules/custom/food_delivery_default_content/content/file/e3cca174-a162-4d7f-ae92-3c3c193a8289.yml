@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e3cca174-a162-4d7f-ae92-3c3c193a8289
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: catalog.png
+  uri:
+    -
+      value: 'public://inline-images/catalog_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1392
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594884145
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

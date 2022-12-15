@@ -1,0 +1,94 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.fact.field_fact_icon
+    - field.field.paragraph.fact.field_fact_text
+    - paragraphs.paragraphs_type.fact
+  module:
+    - ds
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              fact: fact
+            ds_content:
+              fact: fact
+        components:
+          e3e034f5-201a-4765-9350-7aae1450f266:
+            uuid: e3e034f5-201a-4765-9350-7aae1450f266
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:fact:field_fact_icon'
+              label: Icon
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          951e149f-252d-4f7a-a80d-5cc8ca380de7:
+            uuid: 951e149f-252d-4f7a-a80d-5cc8ca380de7
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:fact:field_fact_text'
+              label: Text
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+id: paragraph.fact.default
+targetEntityType: paragraph
+bundle: fact
+mode: default
+content:
+  field_fact_icon:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_fact_text:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

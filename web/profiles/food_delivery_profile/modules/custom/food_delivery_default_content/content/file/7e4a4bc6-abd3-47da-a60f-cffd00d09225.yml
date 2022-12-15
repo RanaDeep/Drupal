@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7e4a4bc6-abd3-47da-a60f-cffd00d09225
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'robin gough.png'
+  uri:
+    -
+      value: 'public://2020-07/robin gough_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 16248
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892560
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

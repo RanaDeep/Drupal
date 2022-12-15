@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 75459614-5c76-4736-a822-45dafb0c7381
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Banner of "Special Price"'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<div class=\"best-deals-banners__content\">\r\n<div class=\"best-deals-banners__img\"><img alt=\"home_banner_1\" data-entity-type=\"file\" data-entity-uuid=\"04004d10-3102-46dc-aca7-32fdfcbe149a\" src=\"/sites/default/files/inline-images/home_banner_1_0.jpg\" /></div>\r\n\r\n<div class=\"best-deals-banners__description\">\r\n<h3 class=\"best-deals-banners__title\"><a href=\"/sale\">Special Price</a></h3>\r\n\r\n<p class=\"best-deals-banners__text\"><a href=\"/sale\">50% off on fresh fruits<br />\r\nand vegetables</a></p>\r\n</div>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

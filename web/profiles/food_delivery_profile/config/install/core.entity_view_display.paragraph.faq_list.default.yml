@@ -1,0 +1,127 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.faq_list.field_faq_list
+    - field.field.paragraph.faq_list.field_faq_list_title
+    - paragraphs.paragraphs_type.faq_list
+  module:
+    - ds
+    - entity_reference_revisions
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              faq-list: faq-list
+            ds_content:
+              faq-list: faq-list
+        components:
+          e821b4b3-c7db-4c18-9311-47d1b3a96bf2:
+            uuid: e821b4b3-c7db-4c18-9311-47d1b3a96bf2
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:faq_list:field_faq_list_title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: faq-list-title
+                  style: ''
+                  data: ''
+            weight: 0
+          d0665cba-9773-49e0-8ec7-199068e7a5d3:
+            uuid: d0665cba-9773-49e0-8ec7-199068e7a5d3
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:faq_list:field_faq_list'
+              label: 'FAQ List'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: faq-list-wrapper
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+id: paragraph.faq_list.default
+targetEntityType: paragraph
+bundle: faq_list
+mode: default
+content:
+  field_faq_list:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_faq_list_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: b1dfecc1-2219-45a3-93e8-ec4751c8ddb7
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    90a3688d-9bba-41eb-b494-ef0a99500d7f: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: Banana
+  variations:
+    -
+      entity: 90a3688d-9bba-41eb-b494-ef0a99500d7f
+  path:
+    -
+      alias: /banana
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1592916632

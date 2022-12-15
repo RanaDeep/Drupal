@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slide_with_block
+label: 'Slide With Block'
+icon_uuid: null
+icon_default: null
+description: 'Slide with additional block on the right.'
+behavior_plugins: {  }

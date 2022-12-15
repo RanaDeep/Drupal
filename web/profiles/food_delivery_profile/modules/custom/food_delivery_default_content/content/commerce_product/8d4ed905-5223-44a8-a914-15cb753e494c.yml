@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 8d4ed905-5223-44a8-a914-15cb753e494c
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    44a6c258-8b2c-44b2-a838-26bfeef4f9f5: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: 'Apricot, Chine'
+  variations:
+    -
+      entity: 44a6c258-8b2c-44b2-a838-26bfeef4f9f5
+  path:
+    -
+      alias: /apricot-chine
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1593164347

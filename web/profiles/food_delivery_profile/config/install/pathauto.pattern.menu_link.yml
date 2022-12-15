@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link
+label: 'Menu link'
+type: 'canonical_entities:menu_link_content'
+pattern: '[menu_link_content:parent]/[menu_link_content:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

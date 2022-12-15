@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6149d467-0ce7-459a-a49c-f5bb93fa43cc
+  bundle: image
+  default_langcode: en
+  depends:
+    6ef16e81-d57f-4b9b-b5f5-bd43c9016116: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: rectangle-3.jpg
+  created:
+    -
+      value: 1600670464
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 6ef16e81-d57f-4b9b-b5f5-bd43c9016116
+      alt: Slider1
+      title: ''
+      width: 1170
+      height: 640

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0af5f537-fdaa-495f-9a2a-5cf3e329734e
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: banner_catalog.jpg
+  uri:
+    -
+      value: 'public://inline-images/banner_catalog_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 42419
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594881677
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c3e02709-aa09-455e-b8c7-d825710ac4a0
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Pumpkin_Armenia.jpg
+  uri:
+    -
+      value: 'public://2020-06/Pumpkin_Armenia_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37587
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1591776344
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

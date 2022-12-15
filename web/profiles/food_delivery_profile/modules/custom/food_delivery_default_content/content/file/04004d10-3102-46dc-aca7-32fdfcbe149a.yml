@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 04004d10-3102-46dc-aca7-32fdfcbe149a
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: home_banner_1_0.jpg
+  uri:
+    -
+      value: 'public://inline-images/home_banner_1_0_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 168733
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594878545
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,106 @@
+/*
+* Styles for search block.
+*/
+.region-header .header-search-block {
+  margin-top: 31px;
+}
+
+.region-header .header-search-block .views-submit-button input {
+  margin-top: 0;
+}
+
+.header-search-block {
+  float: right;
+  margin-right: 35px;
+}
+
+.header-search-block .views-submit-button,
+.header-search-block #edit-search-api-views-fulltext-wrapper {
+  padding: 0;
+}
+
+#views-exposed-form-catalog-products-catalog-search .form-type-textfield input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+
+#views-exposed-form-catalog-products-catalog-search .form-type-textfield input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+
+#views-exposed-form-catalog-products-catalog-search .form-type-textfield input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+
+#views-exposed-form-catalog-products-catalog-search .form-type-textfield input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+
+.header-search-block .views-exposed-widgets {
+  position: relative;
+}
+
+.header-search-block .views-submit-button {
+  display: block !important;
+}
+
+.header-search-block .views-submit-button input {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  height: 14px;
+  width: 14px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(../images/search.png) no-repeat center center;
+  text-indent: -1000em;
+  cursor: pointer;
+}
+
+#views-exposed-form-catalog-products-catalog-search {
+  position: relative;
+}
+
+#views-exposed-form-catalog-products-catalog-search .form-type-textfield input {
+  background-color: #454b59;
+  border-radius: 15px;
+  border: 0;
+  height: 30px;
+  width: 186px;
+  padding-left: 20px;
+  padding-right: 36px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#views-exposed-form-catalog-products-catalog-search .form-actions input {
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  height: 14px;
+  width: 14px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(../images/search.png) no-repeat center center;
+  text-indent: -1000em;
+  cursor: pointer;
+}
+
+#views-exposed-form-catalog-products-catalog-search .js-form-item,
+#views-exposed-form-catalog-products-catalog-search .js-form-wrapper {
+  margin: 0;
+}
+
+.block-views-exposed-filter-blockcatalog-products-catalog-search {
+  margin-top: 31px !important;
+  margin-right: 35px !important;
+  margin-bottom: 0;
+}

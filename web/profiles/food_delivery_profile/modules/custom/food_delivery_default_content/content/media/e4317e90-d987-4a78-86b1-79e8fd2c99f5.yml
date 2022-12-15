@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e4317e90-d987-4a78-86b1-79e8fd2c99f5
+  bundle: image
+  default_langcode: en
+  depends:
+    9e0039eb-780c-46f3-ac96-f51008405a54: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Apricot.jpg
+  created:
+    -
+      value: 1594636906
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 9e0039eb-780c-46f3-ac96-f51008405a54
+      alt: Apricot
+      title: ''
+      width: 400
+      height: 480

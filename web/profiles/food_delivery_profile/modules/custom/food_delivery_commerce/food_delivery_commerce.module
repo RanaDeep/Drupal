@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function food_delivery_commerce_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'commerce_product_product_add_form' || $form_id == 'commerce_product_product_edit_form') {
+    $form['promotion'] = [
+      '#type' => 'details',
+      '#title' => t('Promotion Options'),
+      '#group' => 'advanced',
+      '#weight' => 100,
+      '#collapsed' => TRUE,
+    ];
+    $form['variations']['widget']['entity']['field_promoted_to_front_page']['#group'] = 'promotion';
+  }
+
+  if ($form_id == 'commerce_checkout_flow_food_delivery_checkout_flow') {
+    $form['#after_build'][] = 'food_delivery_commerce_commerce_checkout_flow_food_delivery_checkout_flow_after_build';
+  }
+}
+
+
+/**
+ * After build callback for form 'commerce_checkout_flow_food_delivery_checkout_flow'.
+ */
+function food_delivery_commerce_commerce_checkout_flow_food_delivery_checkout_flow_after_build($form, FormStateInterface $form_state) {
+
+  if ($form['sidebar']) {
+    if ($form['sidebar']['shipping_information']) {
+      $form['sidebar']['shipping_information']['#type'] = 'container';
+      $form['sidebar']['shipping_information']['#title'] = FALSE;
+      array_push($form['sidebar']['shipping_information']['#attributes']['class'], 'shipping-information');
+
+    }
+
+  }
+
+  if ($form['#step_id'] == 'login') {
+    $form['login']['returning_customer']['#title'] = t('Login');
+    $form['login']['register']['#title'] = t('Register');
+  }
+
+  if ($form['#step_id'] == 'billing') {
+    $form['contact_information']['#title'] = t('Account information');
+    unset($form['shipping_information']['shipping_profile']['path']);
+  }
+
+  if ($form['#step_id'] == 'shipping') {
+    $form['review']['shipping_information']['#title'] = t('Shipping information');
+  }
+
+  if ($form['#step_id'] == 'payment') {
+    $form['payment_information']['#title'] = t('Payment');
+    $form['payment_information']['payment_method']['#title'] = FALSE;
+  }
+
+  return $form;
+}

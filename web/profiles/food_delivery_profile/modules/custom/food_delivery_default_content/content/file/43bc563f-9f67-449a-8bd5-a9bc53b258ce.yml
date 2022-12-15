@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 43bc563f-9f67-449a-8bd5-a9bc53b258ce
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: about-banner_0.jpg
+  uri:
+    -
+      value: 'public://inline-images/about-banner_0_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 236212
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1598346801
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

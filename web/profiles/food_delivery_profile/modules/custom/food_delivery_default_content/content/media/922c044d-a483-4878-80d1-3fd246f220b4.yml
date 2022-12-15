@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 922c044d-a483-4878-80d1-3fd246f220b4
+  bundle: image
+  default_langcode: en
+  depends:
+    d8c45e2c-4380-484c-b018-fc11ece41955: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: phone.png
+  created:
+    -
+      value: 1600238848
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d8c45e2c-4380-484c-b018-fc11ece41955
+      alt: Phone
+      title: ''
+      width: 36
+      height: 35

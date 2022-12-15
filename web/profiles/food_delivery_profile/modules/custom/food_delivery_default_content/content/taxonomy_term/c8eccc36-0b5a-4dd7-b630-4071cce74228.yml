@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c8eccc36-0b5a-4dd7-b630-4071cce74228
+  bundle: categories
+  default_langcode: en
+  depends:
+    41b6a69d-159b-4cf2-aca2-5cac32539b1b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: cabbage
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: 41b6a69d-159b-4cf2-aca2-5cac32539b1b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /cabbage
+      langcode: en
+      pathauto: 1

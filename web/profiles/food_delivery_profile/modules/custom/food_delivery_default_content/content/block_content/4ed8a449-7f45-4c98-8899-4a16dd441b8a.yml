@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 4ed8a449-7f45-4c98-8899-4a16dd441b8a
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Banner of "Bestsellers"'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<div class=\"best-deals-banners__content\">\r\n<div class=\"best-deals-banners__img\"><img alt=\"home_banner_2\" data-entity-type=\"file\" data-entity-uuid=\"770058cc-adb5-4fd1-b60e-5b55f0b18469\" src=\"/sites/default/files/inline-images/home_banner_2.jpg\" /></div>\r\n\r\n<div class=\"best-deals-banners__description\">\r\n<h3 class=\"best-deals-banners__title\"><a href=\"/new\">Bestsellers</a></h3>\r\n\r\n<p class=\"best-deals-banners__text\"><a href=\"/new\">20% discount on the<br />\r\nbest store's offers</a></p>\r\n</div>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

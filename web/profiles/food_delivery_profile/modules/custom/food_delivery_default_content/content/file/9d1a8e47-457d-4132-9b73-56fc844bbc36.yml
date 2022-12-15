@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9d1a8e47-457d-4132-9b73-56fc844bbc36
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Cabbage_red.jpg
+  uri:
+    -
+      value: 'public://2020-07/Cabbage_red_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 35865
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594637139
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

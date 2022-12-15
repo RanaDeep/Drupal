@@ -1,0 +1,11 @@
+name: 'Food Delivery Map'
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+description: 'Adds map for Food Delivery when module is enabled'
+package: Web services
+
+# Information added by Drupal.org packaging script on 2021-01-11
+version: '8.x-1.x-dev'
+project: 'food_delivery_profile'
+datestamp: 1610356091

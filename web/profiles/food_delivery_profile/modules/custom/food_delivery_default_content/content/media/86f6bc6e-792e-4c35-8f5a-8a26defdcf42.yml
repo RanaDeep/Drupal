@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 86f6bc6e-792e-4c35-8f5a-8a26defdcf42
+  bundle: image
+  default_langcode: en
+  depends:
+    270efada-67a7-4808-a8b8-52bb232f0504: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Asparagus.jpg
+  created:
+    -
+      value: 1594636961
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 270efada-67a7-4808-a8b8-52bb232f0504
+      alt: Asparagus
+      title: ''
+      width: 400
+      height: 480

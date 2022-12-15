@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: sale_product_default
+label: 'Sale Product: Default (100x74)'
+effects:
+  f5fa26b0-65da-48c7-a61e-04865dcc355f:
+    uuid: f5fa26b0-65da-48c7-a61e-04865dcc355f
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 74
+      crop_type: focal_point

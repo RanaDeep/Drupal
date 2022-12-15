@@ -1,0 +1,9 @@
+country:
+  default: RU
+first_day: 0
+timezone:
+  default: Asia/Omsk
+  user:
+    configurable: true
+    warn: false
+    default: 0

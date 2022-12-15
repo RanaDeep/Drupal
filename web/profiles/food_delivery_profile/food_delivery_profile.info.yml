@@ -1,0 +1,142 @@
+name: Food Delivery Profile
+type: profile
+description: 'Best solution for an easy shopping'
+core: 8.x
+
+distribution:
+  name: Food Delivery profile
+
+dependencies:
+  - adci_contact_info
+  - address
+  - adminimal_admin_toolbar
+  - admin_toolbar
+  - admin_toolbar_tools
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_search
+  - automated_cron
+  - better_exposed_filters
+  - big_pipe
+  - block
+  - block_class
+  - breakpoint
+  - ckeditor
+  - ctools
+  - ctools_block
+  - ctools_views
+  - color
+  - comment
+  - commerce
+  - commerce_addtocart_ajax
+  - commerce_braintree
+  - commerce_cart
+  - commerce_checkout
+  - commerce_log
+  - commerce_number_pattern
+  - commerce_order
+  - commerce_paypal
+  - commerce_payment
+  - commerce_payment_example
+  - commerce_price
+  - commerce_product
+  - commerce_promotion
+  - commerce_store
+  - commerce_tax
+  - config
+  - contact
+  - contextual
+  - crop
+  - block_content
+  - menu_link_content
+  - dblog
+  - search_api_db
+  - datetime
+  - default_content
+  - ds
+  - ds_extras
+  - ds_switch_view_mode
+  - easy_breadcrumb
+  - entity
+  - entity_reference_revisions
+  - facets
+  - facets_range_widget
+  - field
+  - field_ui
+  - file
+  - file_entity
+  - filter
+  - focal_point
+  - food_delivery_commerce
+  - food_delivery_node_controller
+  - food_delivery_schema
+  - hal
+  - help
+  - history
+  - honeypot
+  - image
+  - inline_entity_form
+  - dynamic_page_cache
+  - page_cache
+  - layout_builder
+  - layout_builder_component_attributes
+  - layout_builder_styles
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - menu_ui
+  - module_filter
+  - node
+  - options
+  - owlcarousel
+  - paragraphs
+  - path
+  - pathauto
+  - physical
+  - profile
+  - quickedit
+  - rdf
+  - rest
+  - facets_rest
+  - search_api
+  - serialization
+  - commerce_shipping
+  - redirect
+  - shortcut
+  - state_machine
+  - system
+  - taxonomy
+  - text
+  - editor
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - viewsreference
+  - views_conditional
+  - views_field_view
+  - views
+  - views_ui
+  - views_fieldsets
+  - webform
+  - webform_access
+  - webform_attachment
+  - webform_bootstrap
+  - webform_image_select
+  - webform_node
+  - webform_scheduled_email
+  - webform_shortcuts
+  - webform_submission_log
+  - webform_templates
+
+themes:
+  - bartik
+  - seven
+  - claro
+  - food_delivery_theme
+
+# Information added by Drupal.org packaging script on 2021-01-11
+version: '8.x-1.x-dev'
+project: 'food_delivery_profile'
+datestamp: 1610356091

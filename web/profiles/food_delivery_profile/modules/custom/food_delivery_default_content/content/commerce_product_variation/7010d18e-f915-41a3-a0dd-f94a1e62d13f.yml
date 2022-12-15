@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 7010d18e-f915-41a3-a0dd-f94a1e62d13f
+  bundle: product
+  default_langcode: en
+  depends:
+    f306ce79-9d43-4ec9-b236-9806bafd1e5d: commerce_product
+    1edf1dc0-7b63-4601-87d6-fc0caf04dfb3: taxonomy_term
+    870a3039-7ad4-4aed-afb8-ca2997ec29f9: media
+    18bcaf94-9e9e-49e0-be6b-52ec5834c5b7: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: f306ce79-9d43-4ec9-b236-9806bafd1e5d
+  sku:
+    -
+      value: '1837283192'
+  title:
+    -
+      value: Artichoke
+  price:
+    -
+      number: '21.000000'
+      currency_code: USD
+      formatted: $21.00
+  created:
+    -
+      value: 1593164448
+  field_product_category:
+    -
+      entity: 1edf1dc0-7b63-4601-87d6-fc0caf04dfb3
+  field_product_featured:
+    -
+      value: false
+  field_product_image:
+    -
+      entity: 870a3039-7ad4-4aed-afb8-ca2997ec29f9
+  field_product_new:
+    -
+      value: true
+  field_product_on_sale:
+    -
+      value: false
+  field_product_tag:
+    -
+      entity: 18bcaf94-9e9e-49e0-be6b-52ec5834c5b7
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

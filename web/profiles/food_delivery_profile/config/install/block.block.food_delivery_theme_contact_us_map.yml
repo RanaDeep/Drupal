@@ -1,0 +1,30 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:845dea44-7c9f-410c-bc4a-ba0d9a360f72'
+  module:
+    - block_content
+    - system
+  theme:
+    - food_delivery_theme
+id: food_delivery_theme_contact_us_map
+theme: food_delivery_theme
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:845dea44-7c9f-410c-bc4a-ba0d9a360f72'
+settings:
+  id: 'block_content:845dea44-7c9f-410c-bc4a-ba0d9a360f72'
+  label: 'Contact Us: Map'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,33 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.catalog
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - food_delivery_theme
+third_party_settings:
+  block_class:
+    classes: sale-products-block
+id: food_delivery_theme_sale_products_block
+theme: food_delivery_theme
+region: header
+weight: -3
+provider: null
+plugin: 'views_block:catalog-sale_products_block'
+settings:
+  id: 'views_block:catalog-sale_products_block'
+  label: 'Sale products'
+  provider: views
+  label_display: visible
+  views_label: 'Sale products'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

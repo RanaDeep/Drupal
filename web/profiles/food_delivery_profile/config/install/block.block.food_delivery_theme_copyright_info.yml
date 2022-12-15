@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3e6cbe8e-3358-4ec4-8a76-a3b0707e12c2'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - food_delivery_theme
+third_party_settings:
+  block_class:
+    classes: menu__copyright
+id: food_delivery_theme_copyright_info
+theme: food_delivery_theme
+region: menu_copyright
+weight: -22
+provider: null
+plugin: 'block_content:3e6cbe8e-3358-4ec4-8a76-a3b0707e12c2'
+settings:
+  id: 'block_content:3e6cbe8e-3358-4ec4-8a76-a3b0707e12c2'
+  label: 'Copyright info'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

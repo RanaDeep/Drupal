@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.special-offers
+  module:
+    - system
+  theme:
+    - bartik
+id: specialoffers_2
+theme: bartik
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'system_menu_block:special-offers'
+settings:
+  id: 'system_menu_block:special-offers'
+  label: 'Special Offers'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/catalog\r\n/catalog/*\r\n/new\r\n/featured\r\n/sale"
+    negate: false
+    context_mapping: {  }

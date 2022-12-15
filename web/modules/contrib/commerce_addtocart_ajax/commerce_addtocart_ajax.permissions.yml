@@ -1,0 +1,4 @@
+administer commerce addtocart ajax:
+  description: 'Configurations for Commerce AddToCart Ajax'
+  title: 'Administer Commerce AddToCart Ajax'
+  restrict access: TRUE

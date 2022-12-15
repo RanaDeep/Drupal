@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ff4119d7-4708-479a-85f3-18f57458419d
+  bundle: image
+  default_langcode: en
+  depends:
+    b8fe83e1-bb16-45fd-b383-2d0ce4d1e818: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: location.png
+  created:
+    -
+      value: 1600238644
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: b8fe83e1-bb16-45fd-b383-2d0ce4d1e818
+      alt: Location
+      title: ''
+      width: 32
+      height: 41

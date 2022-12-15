@@ -1,0 +1,102 @@
+{
+    "name": "adci/food_delivery",
+    "description": "Food delivery profile",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "bower-asset/jquery-ui-slider-pips": "^1.11",
+        "drupal/admin_toolbar": "^2.2",
+        "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/better_exposed_filters": "^4.0@beta",
+        "drupal/block_class": "^1.2",
+        "drupal/commerce": "^2.19",
+        "drupal/commerce_addtocart_ajax": "^1.0@alpha",
+        "drupal/commerce_braintree": "^1.2",
+        "drupal/commerce_paypal": "^1.0@beta",
+        "drupal/commerce_shipping": "^2.0@RC",
+        "drupal/config_inspector": "^1.1",
+        "drupal/console": "^1.0.2",
+        "drupal/default_content": "2.0.x-dev",
+        "drupal/devel": "^2.1",
+        "drupal/ds": "^3.8",
+        "drupal/easy_breadcrumb": "^1.12",
+        "drupal/facets": "^1.4",
+        "drupal/file_entity": "^2.0@beta",
+        "drupal/focal_point": "^1.4",
+        "drupal/honeypot": "^2.0",
+        "drupal/layout_builder_component_attributes": "^1.0",
+        "drupal/layout_builder_styles": "^1.0@beta",
+        "drupal/module_filter": "^3.1",
+        "drupal/owlcarousel": "^1.0@alpha",
+        "drupal/paragraphs": "^1.12",
+        "drupal/pathauto": "^1.8",
+        "drupal/physical": "^1.1",
+        "drupal/redirect": "^1.6",
+        "drupal/restui": "^1.18",
+        "drupal/search_api": "^1.17",
+        "drupal/views_conditional": "^1.0",
+        "drupal/views_field_view": "^1.0@beta",
+        "drupal/views_fieldsets": "^3.3",
+        "drupal/viewsreference": "^1.4",
+        "drupal/webform": "^5.16",
+        "drush/drush": "^9.7.1 | ^10.0.0",
+        "npm-asset/owlcarousel": "^1.3",
+        "oomphinc/composer-installers-extender": "^2.0",
+        "symfony/stopwatch": "^5.1",
+        "vlucas/phpdotenv": "^4.0",
+        "webflo/drupal-finder": "^1.0.0",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^8.8.0",
+        "phpunit/phpunit": "7.5.20"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "cache-dir": "./composer_cache"
+    },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ],
+        "files": ["load.environment.php"]
+    },
+    "extra": {
+        "patches": {
+            "drupal/commerce": {
+                "Provide a Views default argument for the current user's cart ID": "https://www.drupal.org/files/issues/commerce-Views_argument_default_current_cart-2852363-5.patch"
+            },
+            "drupal/default_content": {
+                "Dev: Add a Normalizer and Denormalizer to support Layout Builder": "https://www.drupal.org/files/issues/2020-07-22/3160146-18.patch",
+                "Dev: Do not reimport existing entities": "https://www.drupal.org/files/issues/2020-09-02/default_content-integrity_constrait_violation-3162987-2.patch"
+            },
+            "drupal/facets": {
+                "Ajax Facets do not support Range Slider": "https://www.drupal.org/files/issues/2018-11-16/ajax_facets_range_widget-3012531-4.patch"
+            },
+            "drupal/commerce_addtocart_ajax": {
+                "Custom shopping cart": "./patches/custom_shopping_cart.patch"
+            }
+        }
+    }
+}

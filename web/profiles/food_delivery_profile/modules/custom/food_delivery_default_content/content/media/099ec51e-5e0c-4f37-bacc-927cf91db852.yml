@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 099ec51e-5e0c-4f37-bacc-927cf91db852
+  bundle: image
+  default_langcode: en
+  depends:
+    665ae2c2-3502-48fe-8b58-51e828d631a6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'smith f.png'
+  created:
+    -
+      value: 1594892531
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 665ae2c2-3502-48fe-8b58-51e828d631a6
+      alt: 'Smith F.'
+      title: ''
+      width: 149
+      height: 118

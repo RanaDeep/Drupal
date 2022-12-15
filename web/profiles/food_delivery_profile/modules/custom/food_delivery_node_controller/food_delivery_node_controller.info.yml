@@ -1,0 +1,10 @@
+name: 'Food Delivery Node Controller'
+core: 8.x
+type: module
+package: Custom
+description: 'Create custom controller route for nodes'
+
+# Information added by Drupal.org packaging script on 2021-01-11
+version: '8.x-1.x-dev'
+project: 'food_delivery_profile'
+datestamp: 1610356091

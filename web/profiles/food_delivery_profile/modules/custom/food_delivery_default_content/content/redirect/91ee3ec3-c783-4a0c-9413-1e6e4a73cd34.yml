@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 91ee3ec3-c783-4a0c-9413-1e6e4a73cd34
+  bundle: redirect
+  default_langcode: und
+default:
+  hash:
+    -
+      value: z7m8fjkrzQMGkZn2E56fRANtIeAtlWerYRERIOYDUI0
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: webform/contact-us
+      query: {  }
+  redirect_redirect:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  status_code:
+    -
+      value: 301
+  created:
+    -
+      value: 1610308663

@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_info_blocks
+    - paragraphs.paragraphs_type.info_block
+    - paragraphs.paragraphs_type.info_blocks
+  module:
+    - entity_reference_revisions
+id: paragraph.info_blocks.field_info_blocks
+field_name: field_info_blocks
+entity_type: paragraph
+bundle: info_blocks
+label: 'Info Blocks'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      info_block: info_block
+    target_bundles_drag_drop:
+      faq:
+        weight: 7
+        enabled: false
+      faq_list:
+        weight: 8
+        enabled: false
+      info_block:
+        enabled: true
+        weight: 9
+      info_blocks:
+        weight: 10
+        enabled: false
+      team:
+        weight: 11
+        enabled: false
+      worker:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 95ce1f38-14b6-46ef-91d4-bbdc86037fb6
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Shopping cart footer'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<div class=\"services\">\r\n<div class=\"call_services\"><img alt=\"cart-phone\" data-entity-type=\"file\" data-entity-uuid=\"2bd52535-214b-4eef-8a1b-5bf6a765f3c3\" src=\"/sites/default/files/inline-images/cart-phone_0.png\" />\r\n<p>Call customer services<br />\r\non 0800 321 4568</p>\r\n</div>\r\n\r\n<div class=\"free_delivery\"><img alt=\"cart-clock\" data-entity-type=\"file\" data-entity-uuid=\"d53cc074-762a-4894-8d6b-db4c5fe39d2a\" src=\"/sites/default/files/inline-images/cart-clock_0.png\" />\r\n<p>Free delivery within 40<br />\r\nminutes to your home</p>\r\n</div>\r\n\r\n<div class=\"button_back_to_shopping\">\r\n<form action=\"/catalog\"><button class=\"button button-border-gray\" type=\"submit\">Back to shopping</button></form>\r\n</div>\r\n\r\n<div class=\"button_next_to_checkout\">\r\n<form action=\"/checkout[commerce_order:order_id]\"><button class=\"button button-fill-green\" type=\"submit\">Checkout now</button></form>\r\n</div>\r\n\r\n</div>\r\n"
+      format: full_html
+      summary: ''

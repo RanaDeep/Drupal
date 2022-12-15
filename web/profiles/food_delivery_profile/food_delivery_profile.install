@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the food_delivery_theme install profile.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function food_delivery_profile_install() {
+  // First, do everything that is done in the standard profile.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
+
+  // Install default content module.
+  Drupal::service('module_installer')->install(['food_delivery_default_content']);
+
+  // Install map module.
+  Drupal::service('module_installer')->install(['food_delivery_map']);
+}

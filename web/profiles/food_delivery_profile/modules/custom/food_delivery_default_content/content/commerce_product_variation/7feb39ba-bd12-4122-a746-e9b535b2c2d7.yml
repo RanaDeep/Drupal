@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 7feb39ba-bd12-4122-a746-e9b535b2c2d7
+  bundle: product
+  default_langcode: en
+  depends:
+    7ef4dbc4-54f3-4e79-a338-50daac064bff: commerce_product
+    1edf1dc0-7b63-4601-87d6-fc0caf04dfb3: taxonomy_term
+    86f6bc6e-792e-4c35-8f5a-8a26defdcf42: media
+    18bcaf94-9e9e-49e0-be6b-52ec5834c5b7: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 7ef4dbc4-54f3-4e79-a338-50daac064bff
+  sku:
+    -
+      value: '1495034930'
+  title:
+    -
+      value: Asparagus
+  price:
+    -
+      number: '38.000000'
+      currency_code: USD
+      formatted: $38.00
+  created:
+    -
+      value: 1593164559
+  field_product_category:
+    -
+      entity: 1edf1dc0-7b63-4601-87d6-fc0caf04dfb3
+  field_product_featured:
+    -
+      value: false
+  field_product_image:
+    -
+      entity: 86f6bc6e-792e-4c35-8f5a-8a26defdcf42
+  field_product_new:
+    -
+      value: false
+  field_product_old_price:
+    -
+      number: '76.000000'
+      currency_code: USD
+      formatted: $76.00
+  field_product_on_sale:
+    -
+      value: true
+  field_product_tag:
+    -
+      entity: 18bcaf94-9e9e-49e0-be6b-52ec5834c5b7
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '0.500000'
+      unit: kg

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.catalog
+  module:
+    - views
+  theme:
+    - bartik
+id: products_catalog_search
+theme: bartik
+region: header
+weight: -12
+provider: null
+plugin: 'views_exposed_filter_block:catalog-products_catalog_search'
+settings:
+  id: 'views_exposed_filter_block:catalog-products_catalog_search'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility: {  }

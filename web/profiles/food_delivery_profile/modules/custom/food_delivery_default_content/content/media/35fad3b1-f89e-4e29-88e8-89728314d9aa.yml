@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 35fad3b1-f89e-4e29-88e8-89728314d9aa
+  bundle: image
+  default_langcode: en
+  depends:
+    d42c7eed-8f85-409c-809a-029109a1ab81: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: about-banner.jpg
+  created:
+    -
+      value: 1600240461
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d42c7eed-8f85-409c-809a-029109a1ab81
+      alt: about-banner
+      title: ''
+      width: 1270
+      height: 200

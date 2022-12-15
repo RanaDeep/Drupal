@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: cf74f8ca-9a28-4a14-a265-01af82960984
+  bundle: product
+  default_langcode: en
+  depends:
+    e8b932a4-e278-4b24-b698-6295c261b37b: commerce_product
+    937af607-0862-4be5-bc3a-64c0b312149b: taxonomy_term
+    639e46b3-3b73-4fe1-aed0-07aab155db94: media
+    18bcaf94-9e9e-49e0-be6b-52ec5834c5b7: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: e8b932a4-e278-4b24-b698-6295c261b37b
+  sku:
+    -
+      value: '1480065353'
+  title:
+    -
+      value: Carrots
+  price:
+    -
+      number: '13.000000'
+      currency_code: USD
+      formatted: $13.00
+  created:
+    -
+      value: 1592919244
+  field_product_category:
+    -
+      entity: 937af607-0862-4be5-bc3a-64c0b312149b
+  field_product_featured:
+    -
+      value: true
+  field_product_image:
+    -
+      entity: 639e46b3-3b73-4fe1-aed0-07aab155db94
+  field_product_new:
+    -
+      value: false
+  field_product_on_sale:
+    -
+      value: false
+  field_product_tag:
+    -
+      entity: 18bcaf94-9e9e-49e0-be6b-52ec5834c5b7
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

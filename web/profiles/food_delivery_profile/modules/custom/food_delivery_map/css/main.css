@@ -1,0 +1,10 @@
+#map {
+  height: 500px;
+}
+
+.marker {
+  display: block;
+  width: 47px;
+  height: 61px;
+  background-image: url('../img/marker.png');
+}

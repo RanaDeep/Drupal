@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: aea21108-d267-48d2-9a89-143e05d4c566
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Parsley.jpg
+  uri:
+    -
+      value: 'public://2020-06/Parsley_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 62152
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592803523
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 336f3a56-d82a-41fb-b956-ac3f085756c8
+  bundle: image
+  default_langcode: en
+  depends:
+    d205c7cc-b31f-4f87-be47-e49a7d100cf8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: woody.png
+  created:
+    -
+      value: 1594892446
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d205c7cc-b31f-4f87-be47-e49a7d100cf8
+      alt: woody
+      title: ''
+      width: 155
+      height: 106

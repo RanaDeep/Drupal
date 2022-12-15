@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: f2f59e1c-56de-459a-9db6-78e3dcced0ff
+  bundle: product
+  default_langcode: en
+  depends:
+    65b551ab-e821-4de3-8af0-3a058bd10a2c: commerce_product
+    a1ac933e-bd88-4f0c-a0b3-7762fce7b260: taxonomy_term
+    c80cf89f-2e41-41ec-a330-3e0637c07cc5: media
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 65b551ab-e821-4de3-8af0-3a058bd10a2c
+  sku:
+    -
+      value: '1928392032'
+  title:
+    -
+      value: 'Basil ordinary'
+  price:
+    -
+      number: '28.000000'
+      currency_code: USD
+      formatted: $28.00
+  created:
+    -
+      value: 1593164630
+  field_product_category:
+    -
+      entity: a1ac933e-bd88-4f0c-a0b3-7762fce7b260
+  field_product_featured:
+    -
+      value: false
+  field_product_image:
+    -
+      entity: c80cf89f-2e41-41ec-a330-3e0637c07cc5
+  field_product_new:
+    -
+      value: false
+  field_product_on_sale:
+    -
+      value: false
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

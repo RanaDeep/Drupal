@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ae334e4b-58d0-4baf-aa2a-575c24f983f5
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sidebar_banner.jpg
+  uri:
+    -
+      value: 'public://inline-images/sidebar_banner_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 136317
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1598331818
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

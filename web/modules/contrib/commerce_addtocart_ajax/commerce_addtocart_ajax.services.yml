@@ -1,0 +1,4 @@
+services:
+  commerce_addtocart_ajax.helper:
+    class: Drupal\commerce_addtocart_ajax\Helper\AjaxCartHelper
+    arguments: ['@entity_type.manager', '@config.factory', '@messenger', '@block.repository', '@renderer']

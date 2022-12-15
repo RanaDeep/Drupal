@@ -1,0 +1,42 @@
+<div id="page-wrapper">
+  <div id="page" class="container page">
+    <header id="header" class="header" role="banner">
+      <div class="section layout-container clearfix" id="header-wrapper">
+        {{ page.header }}
+      </div>
+    </header>
+    <div id="menu" class="clearfix" style="display: none;">
+      <div class="menu-bg-color">
+        <div id="menu-wrapper" class="clearfix">
+          <div class="menu-close"></div>
+            {{ page.menu }}
+          <div class="menu-copyright">
+            {{ page.menu_copyright }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% if page.content %}
+      <div id="main" class="columns layout-main clearfix">
+        {{ page.content }}
+      </div>
+    {% endif %}
+    {% if page.subscribe %}
+      <div id="subscribe">
+        {{ page.subscribe }}
+      </div>
+    {% endif %}
+    <footer class="site-footer" id="footer">
+      <div class="layout-container">
+        {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+          <div id="footer-columns" class="clearfix">
+            {{ page.footer_first }}
+            {{ page.footer_second }}
+            {{ page.footer_third }}
+            {{ page.footer_fourth }}
+          </div>
+        {% endif %}
+      </div>
+    </footer>
+  </div>
+</div>

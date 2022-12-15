@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4a8c5caf-b5a1-47f8-a94a-eb33c3ae57f2
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Artichoke_1.jpg
+  uri:
+    -
+      value: 'public://2020-06/Artichoke_1_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37639
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1593164448
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

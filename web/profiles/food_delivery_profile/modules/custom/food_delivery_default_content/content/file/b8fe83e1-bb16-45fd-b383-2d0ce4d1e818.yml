@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b8fe83e1-bb16-45fd-b383-2d0ce4d1e818
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: location.png
+  uri:
+    -
+      value: 'public://2020-09/location.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1981
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600410110
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 875e9a5c-44ff-438a-b19c-eab6a5af7bdc
+  bundle: product
+  default_langcode: en
+  depends:
+    ba2ea2fd-b2c0-42f5-a4ea-98389ac721d3: commerce_product
+    937af607-0862-4be5-bc3a-64c0b312149b: taxonomy_term
+    58075a4c-3adc-48a3-8de5-a948c1fe076f: media
+    85607a3e-abd7-4bc6-9322-91ad1379e955: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: ba2ea2fd-b2c0-42f5-a4ea-98389ac721d3
+  sku:
+    -
+      value: '1479980113'
+  title:
+    -
+      value: Beets
+  price:
+    -
+      number: '25.000000'
+      currency_code: USD
+      formatted: $25.00
+  created:
+    -
+      value: 1593164874
+  field_product_category:
+    -
+      entity: 937af607-0862-4be5-bc3a-64c0b312149b
+  field_product_description:
+    -
+      value: 'Contains vitamins K, C, B6p'
+  field_product_featured:
+    -
+      value: true
+  field_product_image:
+    -
+      entity: 58075a4c-3adc-48a3-8de5-a948c1fe076f
+  field_product_new:
+    -
+      value: false
+  field_product_on_sale:
+    -
+      value: false
+  field_product_tag:
+    -
+      entity: 85607a3e-abd7-4bc6-9322-91ad1379e955
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '2.000000'
+      unit: kg

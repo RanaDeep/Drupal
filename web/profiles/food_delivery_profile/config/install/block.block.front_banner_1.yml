@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - bartik
+third_party_settings:
+  block_class:
+    classes: 'best-deals-banners home-banner'
+id: front_banner_1
+theme: bartik
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:75459614-5c76-4736-a822-45dafb0c7381'
+settings:
+  id: 'block_content:75459614-5c76-4736-a822-45dafb0c7381'
+  label: 'Banner of "Special Price"'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

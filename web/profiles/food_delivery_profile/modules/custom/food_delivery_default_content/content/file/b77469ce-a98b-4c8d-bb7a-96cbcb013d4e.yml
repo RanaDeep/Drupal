@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b77469ce-a98b-4c8d-bb7a-96cbcb013d4e
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Asparagus.jpg
+  uri:
+    -
+      value: 'public://2020-06/Asparagus_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 35068
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1593164559
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

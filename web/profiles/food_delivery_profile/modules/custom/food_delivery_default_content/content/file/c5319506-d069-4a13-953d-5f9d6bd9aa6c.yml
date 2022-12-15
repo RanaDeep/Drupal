@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c5319506-d069-4a13-953d-5f9d6bd9aa6c
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'brain smith.png'
+  uri:
+    -
+      value: 'public://2020-07/brain smith_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 10180
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594892722
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

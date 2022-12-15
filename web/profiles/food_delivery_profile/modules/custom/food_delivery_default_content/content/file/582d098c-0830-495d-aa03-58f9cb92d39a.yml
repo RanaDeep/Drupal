@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 582d098c-0830-495d-aa03-58f9cb92d39a
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: how-it-works-banner.jpg
+  uri:
+    -
+      value: 'public://inline-images/how-it-works-banner_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 62099
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1598851140
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

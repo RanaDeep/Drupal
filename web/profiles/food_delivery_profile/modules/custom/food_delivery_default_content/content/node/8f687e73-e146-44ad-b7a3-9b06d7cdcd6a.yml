@@ -1,0 +1,430 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f687e73-e146-44ad-b7a3-9b06d7cdcd6a
+  bundle: page
+  default_langcode: en
+  depends:
+    d6c7854b-0c4c-4454-8502-684869c9340b: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Products'
+  created:
+    -
+      value: 1601275728
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /new
+      langcode: en
+      pathauto: 0
+  field_page_banner:
+    -
+      entity: d6c7854b-0c4c-4454-8502-684869c9340b
+  layout_builder__layout:
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              'catalog banner': 'catalog banner'
+            ds_content:
+              'catalog banner': 'catalog banner'
+        components:
+          204b5a77-5c28-4359-8595-0332391313f3:
+            uuid: 204b5a77-5c28-4359-8595-0332391313f3
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-title
+                  style: ''
+                  data: ''
+            weight: 0
+          1d192e28-9db2-4577-996b-1dd1ef7cc2e6:
+            uuid: 1d192e28-9db2-4577-996b-1dd1ef7cc2e6
+            region: ds_content
+            configuration:
+              id: 'field_block:node:page:field_page_banner'
+              label: Banner
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: banner-image
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              breadcrumbs: breadcrumbs
+            ds_content:
+              breadcrumbs: breadcrumbs
+        components:
+          832b7c45-d7b8-47ab-83c5-9f2ae74084bf:
+            uuid: 832b7c45-d7b8-47ab-83c5-9f2ae74084bf
+            region: ds_content
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_2col
+        layout_settings:
+          label: ''
+          wrappers:
+            left: div
+            right: div
+          outer_wrapper: div
+          attributes: class|frontpage-fullwidth
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              columns: columns
+            left: {  }
+            right: {  }
+        components:
+          852d2137-7451-45a6-8696-fe7491d07b95:
+            uuid: 852d2137-7451-45a6-8696-fe7491d07b95
+            region: left
+            configuration:
+              id: 'views_block:categories-block_1'
+              label: Products
+              provider: views
+              label_display: visible
+              views_label: Products
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+          3b54e1e4-c75f-41ae-8812-15298413b0db:
+            uuid: 3b54e1e4-c75f-41ae-8812-15298413b0db
+            region: left
+            configuration:
+              id: 'system_menu_block:special-offers'
+              label: 'Special Offers'
+              provider: system
+              label_display: visible
+              level: '1'
+              depth: '0'
+              expand_all_items: 0
+              context_mapping: {  }
+            additional: {  }
+            weight: 1
+          20a643ff-4b87-4046-8923-c22732d6997b:
+            uuid: 20a643ff-4b87-4046-8923-c22732d6997b
+            region: left
+            configuration:
+              id: 'facet_block:new_price'
+              label: Price
+              provider: facets
+              label_display: visible
+              context_mapping: {  }
+            additional: {  }
+            weight: 2
+          ad632693-4775-4c56-9c08-64e40b8e3df8:
+            uuid: ad632693-4775-4c56-9c08-64e40b8e3df8
+            region: right
+            configuration:
+              id: 'views_block:catalog-new_products_block'
+              label: ''
+              provider: views
+              label_display: 0
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: products-block
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 0
+          12194a4a-a387-4dd5-90b7-622344bbcb54:
+            uuid: 12194a4a-a387-4dd5-90b7-622344bbcb54
+            region: left
+            configuration:
+              id: 'views_block:popular_tags-block_1'
+              label: ''
+              provider: views
+              label_display: visible
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: 3
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|frontpage-mobile-filterbutton
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          f91ef8e1-2c79-41ef-855c-22bc12059e23:
+            uuid: f91ef8e1-2c79-41ef-855c-22bc12059e23
+            region: ds_content
+            configuration:
+              id: 'block_content:a62ddeb5-7800-485f-9f90-9d8645301344'
+              label: 'Filter button block'
+              provider: block_content
+              label_display: 0
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|frontpage-mobile-filters
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          9998c20e-cf9a-45ef-94c8-d9aac3b4777f:
+            uuid: 9998c20e-cf9a-45ef-94c8-d9aac3b4777f
+            region: ds_content
+            configuration:
+              id: 'views_block:categories-block_1'
+              label: Products
+              provider: views
+              label_display: visible
+              views_label: Products
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-10'
+          f665f5c3-a722-4cd8-add6-9f3eb83ad3a9:
+            uuid: f665f5c3-a722-4cd8-add6-9f3eb83ad3a9
+            region: ds_content
+            configuration:
+              id: 'system_menu_block:special-offers'
+              label: 'Special Offers'
+              provider: system
+              label_display: visible
+              level: '1'
+              depth: '0'
+              expand_all_items: 0
+              context_mapping: {  }
+            additional: {  }
+            weight: '-9'
+          d050b7a1-a474-4b0c-8e9b-e30d8bcbb70c:
+            uuid: d050b7a1-a474-4b0c-8e9b-e30d8bcbb70c
+            region: ds_content
+            configuration:
+              id: 'views_block:popular_tags-block_1'
+              label: ''
+              provider: views
+              label_display: visible
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: '-7'
+          e0a1b23e-096c-44f8-9ab2-f5a6a5788f99:
+            uuid: e0a1b23e-096c-44f8-9ab2-f5a6a5788f99
+            region: ds_content
+            configuration:
+              id: 'facet_block:mobile_new_price'
+              label: Price
+              provider: facets
+              label_display: visible
+              context_mapping: {  }
+            additional: {  }
+            weight: '-8'
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: class|frontpage-mobile-content
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          6a659a51-1d1a-4c1a-be74-6933b79b3683:
+            uuid: 6a659a51-1d1a-4c1a-be74-6933b79b3683
+            region: ds_content
+            configuration:
+              id: 'views_block:catalog-mobile_new_products_block'
+              label: ''
+              provider: views
+              label_display: 0
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: products-block
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: id|subscribe
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class: {  }
+            ds_content: {  }
+        components:
+          bd5e3e66-c225-48b0-bbf5-5df127f20d02:
+            uuid: bd5e3e66-c225-48b0-bbf5-5df127f20d02
+            region: ds_content
+            configuration:
+              id: webform_block
+              label: 'Subscribe to our newsletter!'
+              provider: webform
+              label_display: visible
+              webform_id: subscribe
+              default_data: ''
+              redirect: 0
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }

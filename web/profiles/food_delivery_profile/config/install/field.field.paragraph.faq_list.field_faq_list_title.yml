@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_faq_list_title
+    - paragraphs.paragraphs_type.faq_list
+id: paragraph.faq_list.field_faq_list_title
+field_name: field_faq_list_title
+entity_type: paragraph
+bundle: faq_list
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

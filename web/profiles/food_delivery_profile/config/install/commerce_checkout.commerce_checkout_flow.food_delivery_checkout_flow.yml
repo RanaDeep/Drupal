@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payment
+    - commerce_paypal
+    - commerce_promotion
+    - commerce_shipping
+    - food_delivery_commerce
+id: food_delivery_checkout_flow
+label: 'Food Delivery Checkout Flow'
+plugin: food_delivery_checkout_flow
+configuration:
+  display_checkout_progress: true
+  panes:
+    login:
+      allow_guest_checkout: false
+      allow_registration: true
+      step: login
+      weight: '0'
+    custom_account_information_pane:
+      step: billing
+      weight: '1'
+    shipping_information:
+      require_shipping_profile: false
+      step: billing
+      weight: '2'
+    review:
+      step: shipping
+      weight: '3'
+    payment_information:
+      step: payment
+      weight: '4'
+    payment_process:
+      capture: true
+      step: payment_process
+      weight: '5'
+    paypal_checkout_payment_process:
+      capture: true
+      step: payment_process
+      weight: '6'
+    completion_message:
+      step: complete
+      weight: '7'
+    order_summary:
+      view: commerce_checkout_order_summary
+      step: _sidebar
+      weight: '8'
+    completion_register:
+      step: _disabled
+      weight: '9'
+    coupon_redemption:
+      allow_multiple: false
+      step: _disabled
+      weight: '10'
+    contact_information:
+      double_entry: false
+      step: _disabled
+      weight: '11'

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2086fe12-93b7-4d59-96f7-ce938b2d8647
+  bundle: image
+  default_langcode: en
+  depends:
+    d397a5ea-61b6-4ec9-a7e8-d0c2dbe6c780: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: slide-icon-2.png
+  created:
+    -
+      value: 1600252850
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d397a5ea-61b6-4ec9-a7e8-d0c2dbe6c780
+      alt: slide-icon-2
+      title: ''
+      width: 75
+      height: 68

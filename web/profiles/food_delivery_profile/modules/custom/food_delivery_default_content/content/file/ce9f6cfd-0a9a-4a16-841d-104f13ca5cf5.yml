@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ce9f6cfd-0a9a-4a16-841d-104f13ca5cf5
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: clock_0.png
+  uri:
+    -
+      value: 'public://inline-images/clock_0_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1163
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1595483689
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

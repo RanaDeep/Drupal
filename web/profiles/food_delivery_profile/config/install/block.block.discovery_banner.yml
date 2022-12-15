@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - bartik
+third_party_settings:
+  block_class:
+    classes: banner-catalog-1
+id: discovery_banner
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:4416bec6-c502-4f06-9842-fb150b759b23'
+settings:
+  id: 'block_content:4416bec6-c502-4f06-9842-fb150b759b23'
+  label: 'Banner "Discover our products"'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

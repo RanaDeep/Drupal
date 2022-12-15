@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 429edee6-c37b-443b-95b4-943d49b3b0af
+  bundle: categories
+  default_langcode: en
+  depends:
+    41b6a69d-159b-4cf2-aca2-5cac32539b1b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: melons
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 41b6a69d-159b-4cf2-aca2-5cac32539b1b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /melons
+      langcode: en
+      pathauto: 1

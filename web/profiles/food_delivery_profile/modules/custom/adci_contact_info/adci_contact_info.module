@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Enable adci_contact_info_block after the ADCI Contact Info module was installed.
+ */
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook_modules_installed().
+ */
+function adci_contact_info_modules_installed() {
+  $block = \Drupal::entityManager()->getStorage('block')
+    ->load('adci_contact_info_block')
+    ->enable()
+    ->save();
+}

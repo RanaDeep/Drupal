@@ -1,0 +1,139 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide_content_center_item.field_slide_content_centent_text
+    - field.field.paragraph.slide_content_center_item.field_slide_content_center_icon
+    - paragraphs.paragraphs_type.slide_content_center_item
+  module:
+    - ds
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: ds_1col
+        layout_settings:
+          label: ''
+          wrappers:
+            ds_content: div
+          outer_wrapper: div
+          attributes: ''
+          link_attribute: ''
+          link_custom: ''
+          classes:
+            layout_class:
+              slide-content-center-item: slide-content-center-item
+            ds_content:
+              slide-content-center-item: slide-content-center-item
+        components:
+          d0733eeb-cb47-4beb-9589-efdffd1abbaa:
+            uuid: d0733eeb-cb47-4beb-9589-efdffd1abbaa
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:slide_content_center_item:field_slide_content_center_icon'
+              label: Icon
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings:
+                  ds:
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: false
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: slide-content-center-item__icon
+                  style: ''
+                  data: ''
+            weight: 0
+          661bbda9-605f-401f-83e4-33a9745f8e17:
+            uuid: 661bbda9-605f-401f-83e4-33a9745f8e17
+            region: ds_content
+            configuration:
+              id: 'field_block:paragraph:slide_content_center_item:field_slide_content_centent_text'
+              label: Text
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings:
+                  ds:
+                    ft:
+                      id: default
+                      settings:
+                        lb: ''
+                        lb-col: false
+                        classes: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: slide-content-center-item__text
+                  style: ''
+                  data: ''
+            weight: 1
+        third_party_settings: {  }
+id: paragraph.slide_content_center_item.default
+targetEntityType: paragraph
+bundle: slide_content_center_item
+mode: default
+content:
+  field_slide_content_centent_text:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: ds_content
+  field_slide_content_center_icon:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

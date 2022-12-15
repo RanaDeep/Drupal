@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 62c7d5e3-2e0e-4b50-9e0e-f6af246e36b2
+  bundle: image
+  default_langcode: en
+  depends:
+    37ae0e09-24df-477e-9780-59ff233bab11: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'joe sterling.png'
+  created:
+    -
+      value: 1594892654
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 37ae0e09-24df-477e-9780-59ff233bab11
+      alt: 'Joe Sterling'
+      title: ''
+      width: 170
+      height: 129

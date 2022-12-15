@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 58d8e425-a355-4e22-a322-cb9ce3594bdd
+  bundle: product
+  default_langcode: en
+  depends:
+    a0bdbe90-f063-4377-9929-dbcf9c4e9a11: commerce_store
+    353fa40e-2761-4e3b-924d-6c43b0a4d426: commerce_product_variation
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: a0bdbe90-f063-4377-9929-dbcf9c4e9a11
+  title:
+    -
+      value: 'Apples, Chine'
+  variations:
+    -
+      entity: 353fa40e-2761-4e3b-924d-6c43b0a4d426
+  path:
+    -
+      alias: /apples-chine
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1593164231

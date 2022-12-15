@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 870a3039-7ad4-4aed-afb8-ca2997ec29f9
+  bundle: image
+  default_langcode: en
+  depends:
+    c5fc893c-d0dd-4986-90a7-748b43b8b72a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Artichoke.jpg
+  created:
+    -
+      value: 1594636923
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: c5fc893c-d0dd-4986-90a7-748b43b8b72a
+      alt: Artichoke
+      title: ''
+      width: 400
+      height: 480

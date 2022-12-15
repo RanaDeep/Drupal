@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 97afb438-0c9c-4f4c-8a0e-b0a279fed6dc
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Basil_ordinary.jpg
+  uri:
+    -
+      value: 'public://2020-07/Basil_ordinary_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 41427
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594637009
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6d8df30f-8aa8-423b-b493-ae96c2710faa
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mail.png
+  uri:
+    -
+      value: 'public://inline-images/mail_1_1_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 882
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1595483724
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

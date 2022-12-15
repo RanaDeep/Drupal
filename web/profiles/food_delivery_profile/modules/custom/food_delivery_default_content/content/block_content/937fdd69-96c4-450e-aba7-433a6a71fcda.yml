@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 937fdd69-96c4-450e-aba7-433a6a71fcda
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Banner of "Culinary day"'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<div class=\"best-deals-banners__content\">\r\n<div class=\"best-deals-banners__img\"><a href=\"https://www.hochschober.com/en/culinary/the-culinary-day/\" target=\"_blank\"><img alt=\"Sidebar Banner\" data-entity-type=\"file\" data-entity-uuid=\"ae334e4b-58d0-4baf-aa2a-575c24f983f5\" src=\"/sites/default/files/inline-images/sidebar_banner.jpg\" /></a></div>\r\n\r\n<div class=\"best-deals-banners__description\">\r\n<h3 class=\"best-deals-banners__title\"><a href=\"https://www.hochschober.com/en/culinary/the-culinary-day/\" target=\"_blank\">Culinary day</a></h3>\r\n\r\n<p class=\"best-deals-banners__text\"><a href=\"https://www.hochschober.com/en/culinary/the-culinary-day/\" target=\"_blank\">Central Park<br />\r\n<strong>28th August at 3:00</strong></a></p>\r\n</div>\r\n</div>\r\n"
+      format: full_html
+      summary: ''

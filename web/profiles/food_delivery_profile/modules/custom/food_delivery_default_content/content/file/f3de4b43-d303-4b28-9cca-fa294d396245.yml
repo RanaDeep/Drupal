@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f3de4b43-d303-4b28-9cca-fa294d396245
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: about-icon-3.png
+  uri:
+    -
+      value: 'public://2020-09/about-icon-3_0_0_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 9960
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1600233438
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

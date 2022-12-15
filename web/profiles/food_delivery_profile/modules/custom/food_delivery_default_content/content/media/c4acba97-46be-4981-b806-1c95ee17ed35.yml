@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c4acba97-46be-4981-b806-1c95ee17ed35
+  bundle: image
+  default_langcode: en
+  depends:
+    53b7dc7c-4597-48e2-95c7-2698660aa9fd: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: esto.png
+  created:
+    -
+      value: 1594892690
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 53b7dc7c-4597-48e2-95c7-2698660aa9fd
+      alt: Esto
+      title: ''
+      width: 129
+      height: 130

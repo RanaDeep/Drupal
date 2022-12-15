@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8878c5c3-25d0-46cd-bd5e-606b1c316268
+  bundle: image
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Carrots_1.jpg
+  uri:
+    -
+      value: 'public://2020-06/Carrots_1_1_1_0_0_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38457
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592919225
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

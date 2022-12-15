@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 353fa40e-2761-4e3b-924d-6c43b0a4d426
+  bundle: product
+  default_langcode: en
+  depends:
+    58d8e425-a355-4e22-a322-cb9ce3594bdd: commerce_product
+    63464313-e4eb-48b3-ae04-a8581808e23c: taxonomy_term
+    267ac3e3-4499-47fe-8a7c-eb0df66c99cf: media
+    59edc1f7-ef06-4a3c-95f6-ea2c6e8474ab: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 58d8e425-a355-4e22-a322-cb9ce3594bdd
+  sku:
+    -
+      value: '1480319488'
+  title:
+    -
+      value: 'Apples, Chine'
+  price:
+    -
+      number: '30.000000'
+      currency_code: USD
+      formatted: $30.00
+  created:
+    -
+      value: 1593164272
+  field_product_category:
+    -
+      entity: 63464313-e4eb-48b3-ae04-a8581808e23c
+  field_product_featured:
+    -
+      value: true
+  field_product_image:
+    -
+      entity: 267ac3e3-4499-47fe-8a7c-eb0df66c99cf
+  field_product_new:
+    -
+      value: true
+  field_product_on_sale:
+    -
+      value: false
+  field_product_tag:
+    -
+      entity: 59edc1f7-ef06-4a3c-95f6-ea2c6e8474ab
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: kg

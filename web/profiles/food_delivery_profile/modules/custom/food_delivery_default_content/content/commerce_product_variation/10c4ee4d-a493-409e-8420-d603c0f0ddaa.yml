@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 10c4ee4d-a493-409e-8420-d603c0f0ddaa
+  bundle: product
+  default_langcode: en
+  depends:
+    f067c6f2-d66e-400b-b1f5-ec70a7ab2256: commerce_product
+    663fa327-18fa-4d34-83c3-74f3cf934b9e: taxonomy_term
+    d9b60d94-861f-4e1f-b05c-a783ea731734: media
+    18bcaf94-9e9e-49e0-be6b-52ec5834c5b7: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: f067c6f2-d66e-400b-b1f5-ec70a7ab2256
+  sku:
+    -
+      value: '1823456909'
+  title:
+    -
+      value: 'Bell Peper, Australia'
+  price:
+    -
+      number: '68.000000'
+      currency_code: USD
+      formatted: $68.00
+  created:
+    -
+      value: 1593164941
+  field_product_category:
+    -
+      entity: 663fa327-18fa-4d34-83c3-74f3cf934b9e
+  field_product_featured:
+    -
+      value: true
+  field_product_image:
+    -
+      entity: d9b60d94-861f-4e1f-b05c-a783ea731734
+  field_product_new:
+    -
+      value: false
+  field_product_old_price:
+    -
+      number: '85.000000'
+      currency_code: USD
+      formatted: $85.00
+  field_product_on_sale:
+    -
+      value: true
+  field_product_tag:
+    -
+      entity: 18bcaf94-9e9e-49e0-be6b-52ec5834c5b7
+  field_promoted_to_front_page:
+    -
+      value: true
+  weight:
+    -
+      number: '1.000000'
+      unit: kg
